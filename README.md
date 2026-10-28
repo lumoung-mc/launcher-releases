@@ -20,8 +20,9 @@ tools/build_manifest.py
 
 - `id`: 내부 식별자. `cleancity`를 유지합니다.
 - `name`: 화면에 표시할 이름. 현재 요청에 맞춰 `쓱싹서버`로 작성했습니다.
-- `launcher_version`: 런처 버전입니다. 설치 프로그램 다운로드 주소나
-  파일 검증값은 아직 포함되어 있지 않으므로 이 값만으로 자동 업데이트되지는 않습니다.
+- `launcher_version`: 최신 런처 버전입니다.
+- `launcher_update`: 설치용 EXE의 `url`, `sha256`, `size`입니다.
+  설치된 런처보다 최신 버전일 때 다운로드와 검증 후 자동 설치합니다.
 - `version`: 게임 배포 버전입니다.
 - `notices`, `patch_notes`: 게시물 URL 목록입니다. 빈 배열은 등록된 글이 없다는 뜻입니다.
 - `manifest_url`: `games/cleancity/manifest.json`의 원본 다운로드 주소입니다.
@@ -46,7 +47,23 @@ https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/details.json
 이미 포함된 반복용 영상입니다. 런처에서 또 교차 페이드를 적용하지 않습니다.
 
 이 폴더에 파일을 준비하는 것과 GitHub 업로드, 런처 원격 정보 연동은 별도 작업입니다.
-런처의 원격 데이터 로딩 및 설치 기능은 별도로 연결해야 합니다.
+런처는 이 저장소에서 게임 정보와 에셋을 가져옵니다.
+Minecraft 게임 자체의 설치·실행 기능은 런처 프로그램의 자동 업데이트와 별개입니다.
+
+## 런처 설치
+
+[루뭉S2 런처 1.0.0 설치 파일 다운로드](https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/launcher/windows/LumoungsLauncher-1.0.0-Setup.exe)
+
+- Windows x64 설치용 EXE이며, GitHub나 개발 도구를 설치할 필요가 없습니다.
+- 관리자 권한 없이 현재 사용자 계정에 설치됩니다.
+- 설치 위치 기본값: `%LOCALAPPDATA%\Programs\LumoungsLauncher`
+- 제공된 프로필 이미지가 앱·설치 프로그램·바탕화면 바로가기 아이콘에 적용됩니다.
+- 시작할 때와 실행 중 5분마다 업데이트를 확인합니다.
+- 자동 업데이트가 켜져 있으면 다운로드·검증 후 안내하고 10초 뒤 설치·재실행합니다.
+- 설정에서 자동 업데이트를 끄거나 직접 업데이트를 확인할 수 있습니다.
+
+배포자는 새 버전 EXE를 새 파일명으로 올리고 `launcher_version`과
+`launcher_update`를 함께 갱신해야 합니다. 이미 배포한 버전 파일을 덮어쓰지 않습니다.
 
 ## 게임 설치 목록 갱신
 

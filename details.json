@@ -316,5 +316,10 @@
                 }
             ]
         }
-    ]
+    ],
+    "launcher_update": {
+        "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/launcher/windows/LumoungsLauncher-1.0.0-Setup.exe",
+        "sha256": "c98d565f0aed9b2080b93fd5a82953315a1a1ded8493c4554587db9e9c0c8879",
+        "size": 48349112
+    }
 }
