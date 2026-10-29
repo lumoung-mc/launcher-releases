@@ -1,13 +1,16 @@
 {
     "schema_version": 1,
-    "launcher_version": "1.0.6",
+    "launcher_version": "1.0.7",
     "games": [
         {
             "id": "cleancity",
             "version": "1.0.4",
             "type": "minecraft_java_edition",
             "name": "쓱싹서버",
-            "server": { "host": "121.180.10.242", "port": 25560 },
+            "server": {
+                "host": "121.180.10.242",
+                "port": 25560
+            },
             "notices": [
                 {
                     "url": "https://www.sooplive.com/station/lumoungs2/post/210654711"
@@ -319,8 +322,8 @@
         }
     ],
     "launcher_update": {
-        "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/launcher/windows/LumoungsLauncher-1.0.6-Setup.exe",
-        "sha256": "5ee04ad6282474b0e95f3c04d99f047129dc3c86f9dc9a9265879fa288838fb6",
-        "size": 48437073
+        "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/launcher/windows/LumoungsLauncher-1.0.7-Setup.exe",
+        "sha256": "d2c4c816ca9a6dbf024555e814995abf591c6d47b2e67c4d23f77ab9610d6eee",
+        "size": 48446895
     }
 }
