@@ -1,10 +1,10 @@
 {
     "schema_version": 1,
-    "launcher_version": "1.0.2",
+    "launcher_version": "1.0.3",
     "games": [
         {
             "id": "cleancity",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "type": "minecraft_java_edition",
             "name": "쓱싹서버",
             "notices": [
@@ -318,8 +318,8 @@
         }
     ],
     "launcher_update": {
-        "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/launcher/windows/LumoungsLauncher-1.0.2-Setup.exe",
-        "sha256": "fd83bd15f878fb331f6787df6940570cd39137e1436e97b6fba67268c8d1a61a",
-        "size": 48404521
+        "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/launcher/windows/LumoungsLauncher-1.0.3-Setup.exe",
+        "sha256": "3cdaa580b3be288089170093644755871bb2c4d0ad3a5a1cf96ca3b8aacf99e2",
+        "size": 48404665
     }
 }
