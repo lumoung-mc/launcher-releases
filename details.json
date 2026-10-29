@@ -4,7 +4,7 @@
     "games": [
         {
             "id": "cleancity",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "type": "minecraft_java_edition",
             "name": "쓱싹서버",
             "notices": [
