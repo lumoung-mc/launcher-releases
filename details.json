@@ -4,7 +4,7 @@
     "games": [
         {
             "id": "cleancity",
-            "version": "1.0.14",
+            "version": "1.0.15",
             "type": "minecraft_java_edition",
             "name": "쓱싹서버",
             "server": {
@@ -17,7 +17,7 @@
                 }
             ],
             "patch_notes": [],
-            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/08db727b1e1ea74356316558e7d2596f76a5e680/games/cleancity/manifest.json",
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/026068a27a3aeff9436d87146eb357687c81bdb6/games/cleancity/manifest.json",
             "assets": {
                 "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/logo.png",
                 "thumbnail": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/thumbnail.png",
@@ -58,7 +58,7 @@
                                 },
                                 {
                                     "label": "맨손 우클릭 유지",
-                                    "value": "물 양동이·쓰레기통·쓰레기·사체 잡고 이동"
+                                    "value": "물 양동이·쓰레기통·쓰레기 잡고 이동"
                                 },
                                 {
                                     "label": "우클릭 놓기",
@@ -76,11 +76,11 @@
                         },
                         {
                             "title": "스캔으로 작은 오염까지 찾기",
-                            "body": "R키로 주변 20m의 오염·쓰레기·핏자국·사체를 찾을 수 있습니다. 벽 뒤도 확인할 수 있습니다."
+                            "body": "R키로 주변 20m의 오염·쓰레기를 찾을 수 있습니다. 벽 뒤도 확인할 수 있습니다."
                         },
                         {
                             "title": "체력과 사망 후 정리",
-                            "body": "최대 체력은 하트 5칸입니다. 3초마다 하트 반 칸씩 회복됩니다. 사망하면 사체와 핏자국이 남습니다."
+                            "body": "최대 체력은 하트 5칸입니다. 3초마다 하트 반 칸씩 회복됩니다."
                         }
                     ]
                 },
@@ -214,10 +214,6 @@
                         {
                             "title": "물 양동이·쓰레기통 소환 기계",
                             "body": "기계 앞면의 초록색 버튼을 우클릭하면 물 양동이나 쓰레기통을 받을 수 있습니다."
-                        },
-                        {
-                            "title": "사체 치우기",
-                            "body": "플레이어·동물·몬스터 사체는 맨손으로 옮겨 화로에 태우세요. 한 구당 1,000원을 받습니다. 핏자국은 청소 도구로 닦으세요."
                         }
                     ]
                 },
@@ -226,7 +222,7 @@
                     "articles": [
                         {
                             "title": "청소로 돈 벌기",
-                            "body": "청소·쓰레기 수거·사체 소각으로 돈을 벌 수 있습니다. 보유금은 화면 왼쪽 위에 표시됩니다.",
+                            "body": "청소·쓰레기 수거로 돈을 벌 수 있습니다. 보유금은 화면 왼쪽 위에 표시됩니다.",
                             "rows": [
                                 {
                                     "label": "표면 청소",
@@ -235,10 +231,6 @@
                                 {
                                     "label": "쓰레기 수거",
                                     "value": "소각 완료한 쓰레기 1개당 100원"
-                                },
-                                {
-                                    "label": "사체 소각",
-                                    "value": "한 구당 1,000원"
                                 },
                                 {
                                     "label": "메뉴에 없는 일반 후원",
