@@ -1,6 +1,6 @@
 {
     "schema_version": 1,
-    "launcher_version": "1.0.10",
+    "launcher_version": "1.0.11",
     "games": [
         {
             "id": "cleancity",
@@ -17,7 +17,7 @@
                 }
             ],
             "patch_notes": [],
-            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/manifest.json",
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/versions/1.0.14/manifest.json",
             "assets": {
                 "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/logo.png",
                 "thumbnail": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/thumbnail.png",
@@ -334,8 +334,8 @@
         }
     ],
     "launcher_update": {
-        "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/launcher/windows/LumoungsLauncher-1.0.10-Setup.exe",
-        "sha256": "c9051249b4896d7e9c110684c9351646e885689f53584e5dc53029b715127400",
-        "size": 48460922
+        "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/launcher/windows/LumoungsLauncher-1.0.11-Setup.exe",
+        "sha256": "85d072184d2bb165caacd789aa5a0226e2667a42585495e42cce89f2fa1b5044",
+        "size": 48467119
     }
 }

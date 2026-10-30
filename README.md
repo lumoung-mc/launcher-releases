@@ -25,7 +25,7 @@ tools/build_manifest.py
   설치된 런처보다 최신 버전일 때 다운로드와 검증 후 자동 설치합니다.
 - `version`: 게임 배포 버전입니다.
 - `notices`, `patch_notes`: 게시물 URL 목록입니다. 빈 배열은 등록된 글이 없다는 뜻입니다.
-- `manifest_url`: `games/cleancity/manifest.json`의 원본 다운로드 주소입니다.
+- `manifest_url`: `games/cleancity/versions/<버전>/manifest.json`의 고정 주소입니다.
 - `assets`: GitHub의 원본 파일을 직접 받는 HTTPS 주소입니다.
 - `wiki`: 분류 목록입니다. 각 분류는 `title`과 `articles`를 갖습니다.
   글은 `title`, `body`, 선택적인 표 데이터 `rows`를 갖습니다.
@@ -87,3 +87,14 @@ python tools/build_manifest.py
 
 현재 팩에는 Sodium이 포함되어 있습니다. Vulkan용 파일 구성은 아직 별도로
 정의하지 않았으므로 렌더링 모드별 설치 분리는 추후 설치기에서 구성해야 합니다.
+
+## 배포 파일과 캐시
+
+게임 버전을 올린 뒤 `python tools/build_manifest.py`를 실행합니다.
+`games/cleancity/versions/`의 버전별 목록과 `games/cleancity/files/`의 해시별 파일을
+`details.json`과 함께 커밋해야 합니다. 기존 버전 목록과 해시별 파일은 수정하거나
+삭제하지 않습니다. 같은 버전에서 파일이 달라지면 생성기가 배포를 거부합니다.
+`minecraft/`는 다음 배포의 원본 작업 폴더이며, 신규 설치 목록은 이 폴더를 직접 참조하지 않습니다.
+`manifest.json`은 이전 런처용 호환 주소로만 유지합니다.
+
+검증: `python -m unittest discover -s tools -p test_build_manifest.py`
