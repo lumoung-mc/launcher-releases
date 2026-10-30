@@ -1,7 +1,7 @@
 {
     "schema_version": 1,
     "game_id": "cleancity",
-    "version": "1.0.11",
+    "version": "1.0.12",
     "minecraft_version": "26.2",
     "java_major_version": 25,
     "loader": {
@@ -12,8 +12,8 @@
         {
             "path": "mods/cleancity-1.0-SNAPSHOT.jar",
             "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/minecraft/mods/cleancity-1.0-SNAPSHOT.jar",
-            "size": 62498760,
-            "sha256": "923f1f2299871d04b5dc4e8b5d6f0474bc3baa7e6d3cf5b3b4a3b1d493be6e8c",
+            "size": 62501188,
+            "sha256": "7feed50982628999ae8fe4dabf683f60d8b9e2b5bf0900f615d17c6af8f87751",
             "mode": "managed"
         },
         {
