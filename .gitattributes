@@ -4,3 +4,6 @@
 *.exe -text
 games/cleancity/minecraft/** -text
 games/cleancity/assets/** -text
+
+games/**/minecraft/** -text
+games/**/assets/** -text

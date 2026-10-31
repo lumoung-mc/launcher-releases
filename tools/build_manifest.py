@@ -20,10 +20,10 @@ def git(*args):
     return subprocess.check_output(['git', *args], cwd=ROOT).decode().strip()
 
 
-def main(pin_manifest=False):
+def main(pin_manifest=False, game_id='cleancity'):
     details_path = ROOT / 'details.json'
     details = json.loads(details_path.read_text(encoding='utf-8-sig'))
-    game = next(game for game in details['games'] if game['id'] == 'cleancity')
+    game = next(game for game in details['games'] if game['id'] == game_id)
     if pin_manifest:
         # Publish the exact manifest that is already in history; do not re-render it.
         revision = git('rev-parse', 'HEAD')
@@ -65,8 +65,8 @@ def main(pin_manifest=False):
         raise ValueError('minecraft/ contains no game files')
     manifest = {
         'schema_version': 1, 'game_id': game['id'], 'version': game['version'],
-        'minecraft_version': '26.2', 'java_major_version': 25,
-        'loader': {'type': 'fabric', 'version': '0.19.5'}, 'files': files,
+        'minecraft_version': game.get('minecraft_version', '26.2'), 'java_major_version': game.get('java_major_version', 25),
+        'loader': {'type': 'fabric', 'version': game.get('loader_version', '0.19.5')}, 'files': files,
     }
     (GAME / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=4) + '\n', encoding='utf-8')
     print(f'Generated manifest: {len(files)} files; commit it, then run with --pin-manifest.')
@@ -75,4 +75,9 @@ def main(pin_manifest=False):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--pin-manifest', action='store_true')
-    main(parser.parse_args().pin_manifest)
+    parser.add_argument('--game', default='cleancity')
+    args=parser.parse_args()
+    if not __import__('re').fullmatch(r'[a-z0-9_-]+',args.game): parser.error('Invalid game ID')
+    GAME=ROOT/'games'/args.game
+    SOURCE=GAME/'minecraft'
+    main(args.pin_manifest,args.game)
