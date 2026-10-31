@@ -1,7 +1,7 @@
 {
     "schema_version": 1,
     "game_id": "islandcastaway",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "minecraft_version": "26.3",
     "java_major_version": 25,
     "loader": {
@@ -11,21 +11,21 @@
     "files": [
         {
             "path": "mods/fabric-api-0.165.0+26.3.jar",
-            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/4f1d8f7c8eb6207f292835d4af5b1a59da902e09/games/islandcastaway/minecraft/mods/fabric-api-0.165.0%2B26.3.jar",
+            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/9ac1aceeebbc8c562423eec3fbf289d9cef07f51/games/islandcastaway/minecraft/mods/fabric-api-0.165.0%2B26.3.jar",
             "size": 1778588,
             "sha256": "18442e2ad466d6ef41c37dbb4cb68495e6ca6658b1f1ee9be76143d155ef2c88",
             "mode": "managed"
         },
         {
             "path": "mods/islandcastaway-1.0.0.jar",
-            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/4f1d8f7c8eb6207f292835d4af5b1a59da902e09/games/islandcastaway/minecraft/mods/islandcastaway-1.0.0.jar",
-            "size": 78155500,
-            "sha256": "874f7a90f1b2f0cf6fbccf7f3784a5fe173d3434cf49ec61e7244c55b4bf7e0b",
+            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/9ac1aceeebbc8c562423eec3fbf289d9cef07f51/games/islandcastaway/minecraft/mods/islandcastaway-1.0.0.jar",
+            "size": 78152925,
+            "sha256": "629fac625a454aacfc80207da24774f3da33222bd1beadaaa479dd1eaa07817d",
             "mode": "managed"
         },
         {
             "path": "mods/plasmovoice-fabric-26.3-2.1.17.jar",
-            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/4f1d8f7c8eb6207f292835d4af5b1a59da902e09/games/islandcastaway/minecraft/mods/plasmovoice-fabric-26.3-2.1.17.jar",
+            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/9ac1aceeebbc8c562423eec3fbf289d9cef07f51/games/islandcastaway/minecraft/mods/plasmovoice-fabric-26.3-2.1.17.jar",
             "size": 12248022,
             "sha256": "bce5f8f89f78a667493fd4a926ca8f1c393c9de81eb8fc32f095da0325ca4f43",
             "mode": "managed"
