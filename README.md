@@ -100,3 +100,18 @@ python tools/build_manifest.py
 
 SHA-256과 크기는 로컬 줄바꿈 변환이 아닌 실제 Git 커밋의 파일로 계산합니다.
 검증: `python -m unittest discover -s tools -p test_build_manifest.py`
+
+## 여러 게임 배포
+
+`games/<게임 ID>/minecraft/mods/`에 모드를, `assets/`에 `logo.png`(가로 로고),
+`game_logo.png`(정사각형 아이콘), `thumbnail.png`, `background.mp4`를 준비합니다.
+카탈로그의 `assets.game_logo`는 사이드바·설정·바로가기 아이콘에 쓰입니다.
+게임마다 설치 경로·메모리·렌더링 설정은 따로 저장됩니다.
+`renderer_lock: "opengl"`이면 설정 화면에서 변경할 수 없으며 실행에도 OpenGL이 적용됩니다.
+
+새 게임 목록을 `details.json`에 추가한 후:
+1. `minecraft/`와 에셋 파일을 커밋합니다.
+2. `python tools/build_manifest.py --game islandcastaway` 실행 후 설치 목록을 커밋합니다.
+3. `python tools/build_manifest.py --game islandcastaway --pin-manifest` 실행 후 카탈로그를 커밋하고 푸시합니다.
+
+Minecraft·Fabric·Java 버전은 게임별 `minecraft_version`, `loader_version`, `java_major_version`으로 지정합니다.

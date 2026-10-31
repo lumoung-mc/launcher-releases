@@ -1,12 +1,15 @@
 {
     "schema_version": 1,
-    "launcher_version": "1.0.12",
+    "launcher_version": "1.0.13",
     "games": [
         {
             "id": "cleancity",
             "version": "1.0.15",
             "type": "minecraft_java_edition",
             "name": "쓱싹서버",
+            "minecraft_version": "26.2",
+            "java_major_version": 25,
+            "loader_version": "0.19.5",
             "server": {
                 "host": "121.180.10.242",
                 "port": 25560
@@ -21,7 +24,8 @@
             "assets": {
                 "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/logo.png",
                 "thumbnail": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/thumbnail.png",
-                "loop_background": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/background.mp4"
+                "loop_background": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/background.mp4",
+                "game_logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/game_logo.png"
             },
             "wiki": [
                 {
@@ -323,11 +327,58 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "islandcastaway",
+            "version": "1.0.0",
+            "type": "minecraft_java_edition",
+            "name": "자라섬 표류기",
+            "minecraft_version": "26.3",
+            "java_major_version": 25,
+            "loader_version": "0.20.1",
+            "renderer_lock": "opengl",
+            "notices": [],
+            "patch_notes": [],
+            "assets": {
+                "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/logo.png",
+                "game_logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/game_logo.png",
+                "thumbnail": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/thumbnail.png",
+                "loop_background": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/background.mp4"
+            },
+            "wiki": [
+                {
+                    "title": "게임 안내",
+                    "articles": [
+                        {
+                            "title": "무인도에서 시작하기",
+                            "body": "섬에서 자원을 모으고 나만의 거처를 만들어 보세요. 배를 타고 먼 바다로 나가면 새로운 섬을 만날 수 있습니다."
+                        },
+                        {
+                            "title": "섬 탐험",
+                            "body": "화산섬부터 바다요정의 섬까지, 30가지 테마의 섬을 탐험하세요. 섬마다 크기와 자원, 만나는 생물이 다르며 미니맵에는 직접 탐험한 곳만 표시됩니다."
+                        },
+                        {
+                            "title": "낚시",
+                            "body": "입질이 오면 우클릭을 누르거나 놓아 게이지를 초록색 구간에 유지하세요. 물고기의 종류와 희귀도, 크기에 따라 배고픔 회복량이 달라집니다."
+                        }
+                    ]
+                },
+                {
+                    "title": "함께 플레이",
+                    "articles": [
+                        {
+                            "title": "초대하고 참여하기",
+                            "body": "월드를 연 사람은 ESC → 초대 코드 → 발급에서 코드를 받아 상대방에게 알려 주세요.\n참여하는 사람은 메인 화면의 서버 참여에서 받은 코드를 입력하면 됩니다."
+                        }
+                    ]
+                }
+            ],
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/c278dea81136990cd89a5c67fc4b1326b6484b26/games/islandcastaway/manifest.json"
         }
     ],
     "launcher_update": {
-        "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/launcher/windows/LumoungsLauncher-1.0.12-Setup.exe",
-        "sha256": "3259d082c71e1196afccf39aa6d0f8bd1e30d03e408649ea780d7d8dfd2b5929",
-        "size": 48467051
+        "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/launcher/windows/LumoungsLauncher-1.0.13-Setup.exe",
+        "sha256": "ef6ffe3beb76a693dff5ed8b6198175afe1c6eac52cbce1a3ce1b934b59d3154",
+        "size": 48468295
     }
 }
