@@ -1,6 +1,6 @@
 {
     "schema_version": 1,
-    "launcher_version": "1.0.13",
+    "launcher_version": "1.0.14",
     "games": [
         {
             "id": "cleancity",
@@ -22,10 +22,10 @@
             "patch_notes": [],
             "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/026068a27a3aeff9436d87146eb357687c81bdb6/games/cleancity/manifest.json",
             "assets": {
-                "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/logo.png",
-                "thumbnail": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/thumbnail.png",
-                "loop_background": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/background.mp4",
-                "game_logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/game_logo.png"
+                "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/logo.png?v=f03fdcd972566f1a",
+                "thumbnail": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/thumbnail.png?v=a8be3c6c098a8f3c",
+                "loop_background": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/background.mp4?v=1735b9b87bfc1417",
+                "game_logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/game_logo.png?v=92cebc5ecd6894cb"
             },
             "wiki": [
                 {
@@ -340,10 +340,10 @@
             "notices": [],
             "patch_notes": [],
             "assets": {
-                "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/logo.png",
-                "game_logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/game_logo.png",
-                "thumbnail": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/thumbnail.png",
-                "loop_background": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/background.mp4"
+                "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/logo.png?v=4a1f89ddd4608d21",
+                "game_logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/game_logo.png?v=3a9a190ba7266e02",
+                "thumbnail": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/thumbnail.png?v=3916f3fd6535d66e",
+                "loop_background": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/background.mp4?v=8ca0364908d055bc"
             },
             "wiki": [
                 {
@@ -377,8 +377,8 @@
         }
     ],
     "launcher_update": {
-        "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/launcher/windows/LumoungsLauncher-1.0.13-Setup.exe",
-        "sha256": "ef6ffe3beb76a693dff5ed8b6198175afe1c6eac52cbce1a3ce1b934b59d3154",
-        "size": 48468295
+        "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/launcher/windows/LumoungsLauncher-1.0.14-Setup.exe",
+        "sha256": "d6de4fa36abf5b3a4d59b0fb100a3438a7f7d032d2f7b996a4d1b7a9c1b2634c",
+        "size": 48468976
     }
 }
