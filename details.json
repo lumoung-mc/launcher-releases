@@ -330,7 +330,7 @@
         },
         {
             "id": "islandcastaway",
-            "version": "1.0.9",
+            "version": "1.0.10",
             "type": "minecraft_java_edition",
             "name": "자라섬 표류기",
             "minecraft_version": "26.3",
@@ -360,6 +360,10 @@
                         {
                             "title": "다시 아침이 오면",
                             "body": "밤을 버텨 냈다면 한숨 돌릴 시간이에요. 깃발도 아침 햇살 아래에서 조금씩 기운을 되찾습니다. 깃발이 무너지면 도전은 끝! 얼마나 오래 섬을 지켰는지 기록을 확인해 보세요."
+                        },
+                        {
+                            "title": "깃발을 더 든든하게",
+                            "body": "깃발을 우클릭해 모은 재료로 강화하거나 수리해 보세요. 다섯 가지 강화를 각각 5단계까지 올리고, 공격과 지원을 도와주는 열두 가지 기능도 열 수 있어요. 해금한 기능은 자동으로 작동하며, 언제든 켜고 끌 수 있습니다."
                         }
                     ]
                 },
@@ -385,7 +389,7 @@
                     ]
                 }
             ],
-            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/38775ec6f988e4a404b40993318989af9067cd3e/games/islandcastaway/manifest.json"
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/3779b4d7d49013f40a21d43cdb15e77da1f30f9a/games/islandcastaway/manifest.json"
         }
     ],
     "launcher_update": {
