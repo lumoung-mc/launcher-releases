@@ -337,7 +337,11 @@
             "java_major_version": 25,
             "loader_version": "0.20.1",
             "renderer_lock": "vulkan",
-            "notices": [],
+            "notices": [
+                {
+                    "url": "https://www.sooplive.com/station/lumoungs2/post/211396045"
+                }
+            ],
             "patch_notes": [],
             "assets": {
                 "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/logo.png?v=4a1f89ddd4608d21",
