@@ -4,7 +4,7 @@
     "games": [
         {
             "id": "cleancity",
-            "version": "1.0.16",
+            "version": "1.0.17",
             "type": "minecraft_java_edition",
             "name": "쓱싹서버",
             "minecraft_version": "26.2",
@@ -24,11 +24,12 @@
                 "Macaroon3145",
                 "Ttankkeo",
                 "lumoungS2",
-                "yingnu97"
+                "yingnu97",
+                "bingddo"
             ],
-            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/e76ca080e15297c0b8a8c8cc1c67db679527ef77/games/cleancity/manifest.json",
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/f7d2a1925d49bfebea483733fcaebedb7b2ca0af/games/cleancity/manifest.json",
             "assets": {
-                "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/logo.png?v=f03fdcd972566f1a",
+                "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/logo.png?v=a618f78c16cd47ac",
                 "thumbnail": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/thumbnail.png?v=a8be3c6c098a8f3c",
                 "loop_background": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/background.mp4?v=1735b9b87bfc1417",
                 "game_logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/game_logo.png?v=92cebc5ecd6894cb"
@@ -336,7 +337,7 @@
         },
         {
             "id": "islandcastaway",
-            "version": "1.0.15",
+            "version": "1.0.16",
             "type": "minecraft_java_edition",
             "name": "자라섬 표류기",
             "minecraft_version": "26.3",
@@ -376,11 +377,11 @@
                     "articles": [
                         {
                             "title": "바다 한가운데, 우리들의 섬",
-                            "body": "끝없이 펼쳐진 바다와 하나뿐인 열대섬. 이곳의 중심에 있는 깃발을 지키며 얼마나 오래 버틸 수 있을까요? 길을 잃었다면 미니맵에서 깃발과 일행을 찾아보세요. M을 누르면 큰 지도가 열립니다. 휠로 확대하고 드래그해 둘러보세요."
+                            "body": "끝없이 펼쳐진 바다와 하나뿐인 열대섬. 중심의 깃발을 지키며 얼마나 오래 버틸 수 있을까요? 미니맵에서 깃발과 일행을 찾아보세요. M을 누르면 큰 지도와 내 좌표를 확인할 수 있어요."
                         },
                         {
                             "title": "해가 지기 전에",
-                            "body": "낮에는 자원을 모으고 방어벽을 세워 두세요. 밤이 되면 몬스터들이 깃발을 노리고 몰려옵니다. 밤을 넘길수록 적은 더 강해지고, 약한 벽은 오래 버티지 못해요. 돌발 웨이브 경고가 뜨면 낮이라도 모두 깃발로 모여 주세요!"
+                            "body": "낮에는 자원을 모으고 방어벽을 세워 두세요. 밤을 넘길수록 더 다양한 적이 몰려오고, 하늘에서도 공격해 옵니다. 10웨이브마다 나타나는 보스를 조심하세요. 50웨이브에는 엔더드래곤이 기다립니다!"
                         },
                         {
                             "title": "다시 아침이 오면",
@@ -388,7 +389,7 @@
                         },
                         {
                             "title": "깃발을 더 든든하게",
-                            "body": "깃발을 우클릭해 모은 재료로 강화하거나 수리해 보세요. 다섯 가지 강화를 각각 5단계까지 올리고, 공격과 지원을 도와주는 열두 가지 기능도 열 수 있어요. 해금한 기능은 자동으로 작동하며, 언제든 켜고 끌 수 있습니다."
+                            "body": "깃발을 우클릭해 재료와 물고기로 강화하거나 수리해 보세요. 다섯 가지 강화를 각각 5단계까지 올리고, 공격과 지원을 도와주는 열두 가지 기능도 열 수 있어요."
                         }
                     ]
                 },
@@ -401,7 +402,7 @@
                         },
                         {
                             "title": "오늘은 어떤 물고기가 잡힐까요?",
-                            "body": "입질이 오면 우클릭을 눌렀다 놓으며 게이지를 초록색 구간에 붙잡아 두세요. 보기 드문 물고기나 커다란 물고기를 낚을 수도 있어요. 종류와 등급, 크기에 따라 더 든든한 한 끼가 됩니다. 익혀 먹어도 좋아요."
+                            "body": "입질이 오면 우클릭을 눌렀다 놓으며 게이지를 초록색 구간에 유지하세요. 어종과 희귀도에 따라 손맛이 달라집니다. 낚은 물고기는 익혀 먹거나 깃발에 바칠 수 있어요. ESC 메뉴의 물고기 도감에서 잡은 물고기와 최대 크기를 확인해 보세요."
                         },
                         {
                             "title": "함께라면 더 오래",
@@ -410,11 +411,15 @@
                         {
                             "title": "더 튼튼한 장비를 향해",
                             "body": "섬 깊은 지하에서 고대 잔해를 캐고, 보물 상자에서 네더라이트 강화 형판을 찾아보세요. 지옥에 가지 않아도 네더라이트 장비를 만들 수 있어요. 형판은 다이아몬드 7개와 조약돌 1개를 더해 복제할 수 있습니다."
+                        },
+                        {
+                            "title": "후원으로 오는 선물",
+                            "body": "10풍은 식량 5개, 20풍은 체력 회복, 33풍은 적 3마리 추가, 330풍은 돌발 웨이브입니다. 100풍 보급상자에는 회복용 음식·광물·장비가 들어 있어요. 34풍과 340풍은 살아 있는 적을 무작위로 최대 3마리·33마리 처치해 줍니다."
                         }
                     ]
                 }
             ],
-            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/ceb67506a3d22253457a0acd0455327c0e15db3e/games/islandcastaway/manifest.json"
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/f7d2a1925d49bfebea483733fcaebedb7b2ca0af/games/islandcastaway/manifest.json"
         }
     ],
     "launcher_update": {
