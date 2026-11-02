@@ -1,6 +1,6 @@
 {
     "schema_version": 1,
-    "launcher_version": "1.0.15",
+    "launcher_version": "1.0.16",
     "games": [
         {
             "id": "cleancity",
@@ -20,7 +20,12 @@
                 }
             ],
             "patch_notes": [],
-            "whitelist": [],
+            "whitelist": [
+                "Macaroon3145",
+                "Ttankkeo",
+                "lumoungS2",
+                "yingnu97"
+            ],
             "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/e76ca080e15297c0b8a8c8cc1c67db679527ef77/games/cleancity/manifest.json",
             "assets": {
                 "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/logo.png?v=f03fdcd972566f1a",
@@ -344,13 +349,27 @@
                 }
             ],
             "patch_notes": [],
-            "whitelist": [],
             "assets": {
                 "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/logo.png?v=4a1f89ddd4608d21",
                 "game_logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/game_logo.png?v=3a9a190ba7266e02",
                 "thumbnail": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/thumbnail.png?v=ca36ab805b264303",
                 "loop_background": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/background.mp4?v=7448b11fba9e1c5c"
             },
+            "whitelist": [
+                "Macaroon3145",
+                "Ttankkeo",
+                "lumoungS2",
+                "eunhye0305",
+                "dotcha0107",
+                "Jack_Jxck",
+                "siro59",
+                "Darae",
+                "haming",
+                "dduning1",
+                "bigwin87",
+                "DDuning1",
+                "Dodamhi_"
+            ],
             "wiki": [
                 {
                     "title": "섬을 지켜 주세요",
@@ -399,8 +418,8 @@
         }
     ],
     "launcher_update": {
-        "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/launcher/windows/LumoungsLauncher-1.0.15-Setup.exe",
-        "sha256": "acc448f5d1bc7c7e87b4b3e0bc25f8e3dfc8cf1ff6221fdc3e583696270bedd9",
-        "size": 48477286
+        "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/launcher/windows/LumoungsLauncher-1.0.16-Setup.exe",
+        "sha256": "579f31057668ce6b89a75ec15ebc456b3c4b81c62ff94e63b7b9ee50e476d494",
+        "size": 48480312
     }
 }
