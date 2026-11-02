@@ -10,6 +10,7 @@
             "minecraft_version": "26.2",
             "java_major_version": 25,
             "loader_version": "0.19.5",
+            "renderer_lock": "vulkan",
             "server": {
                 "host": "121.180.10.242",
                 "port": 25560
