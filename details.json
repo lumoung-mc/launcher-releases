@@ -20,6 +20,7 @@
                 }
             ],
             "patch_notes": [],
+            "whitelist": [],
             "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/e76ca080e15297c0b8a8c8cc1c67db679527ef77/games/cleancity/manifest.json",
             "assets": {
                 "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/logo.png?v=f03fdcd972566f1a",
@@ -343,6 +344,7 @@
                 }
             ],
             "patch_notes": [],
+            "whitelist": [],
             "assets": {
                 "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/logo.png?v=4a1f89ddd4608d21",
                 "game_logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/game_logo.png?v=3a9a190ba7266e02",
