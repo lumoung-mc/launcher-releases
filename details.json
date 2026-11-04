@@ -424,7 +424,7 @@
         },
         {
             "id": "minebattleroyale",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "type": "minecraft_java_edition",
             "name": "마인배틀로얄",
             "minecraft_version": "26.2",
@@ -436,8 +436,8 @@
             "assets": {
                 "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/logo.png?v=f3dfe037a63bfd54",
                 "game_logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/game_logo.png?v=c989f200db6d1bed",
-                "thumbnail": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/thumbnail.png?v=1f6c15a972e52100",
-                "loop_background": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/background.mp4?v=eb6083cdcef5ce90"
+                "thumbnail": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/thumbnail.png?v=d2346575c8066adf",
+                "loop_background": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/background.mp4?v=cf5d1a3d86fb7b82"
             },
             "whitelist": [
                 "Macaroon3145",
@@ -485,7 +485,7 @@
                         },
                         {
                             "title": "설정을 정하고 시작하기",
-                            "body": "방장은 매치 설정에서 경기 구성을 바꿀 수 있습니다. 고급 설정에서는 자기장 크기와 단계별 대기 시간, 축소 시간, 피해량을 정할 수 있습니다. 초기 자기장 크기를 바꾸면 나머지 자기장 설정도 그 크기에 맞춰 자동으로 조정됩니다. 대기 중인 참가자를 모두 팀에 배정한 뒤 시작을 누르세요."
+                            "body": "방장은 매치 설정에서 경기 구성을 바꿀 수 있습니다. 고급 설정에서는 바닐라 난이도, 배고픔 소모 속도와 자기장을 정할 수 있습니다. 배고픔은 1배가 기본, 0배는 소모 없음이며 최대 5배까지 설정할 수 있습니다. 초기 자기장 크기를 바꾸면 6페이즈 프리셋이 자동 적용됩니다. 대기 중인 참가자를 모두 팀에 배정한 뒤 시작을 누르세요."
                         }
                     ]
                 },
@@ -537,7 +537,7 @@
                         },
                         {
                             "title": "머리스킨과 색상으로 팀원 찾기",
-                            "body": "지도에서 플레이어는 머리스킨으로 표시됩니다. 머리 테두리 색상과 지도 핑 색상으로 팀원을 구분할 수 있습니다. 핑으로 모일 위치나 이동할 곳을 알려 주세요."
+                            "body": "지도에서 플레이어는 머리스킨으로 표시됩니다. 머리 테두리 색상과 지도 핑 색상으로 팀원을 구분할 수 있습니다. 핑으로 모일 위치나 이동할 곳을 알려 주세요. 경기 중에는 팀원 이름표와 발광 테두리도 각 팀원의 색상으로 표시됩니다."
                         },
                         {
                             "title": "경기 화면 읽기",
@@ -557,8 +557,8 @@
                             "body": "경기는 아침에 시작합니다. 주변 자원을 모아 도구와 무기, 방어구, 먹거리를 마련하세요. 팀원과 가까이 움직이며 다음 자기장 안으로 들어갈 길도 살펴보세요."
                         },
                         {
-                            "title": "자기장 밖에서도 이동할 수 있습니다",
-                            "body": "자기장은 단계별로 대기한 뒤 줄어듭니다. 경계 밖으로 나갈 수는 있지만 밖에 머무르면 계속 피해를 받습니다. 멀리 나갈수록 피해가 커지지는 않으며, 단계가 바뀌면 피해량도 달라질 수 있습니다. 체력과 남은 시간을 확인하며 안전 구역으로 돌아오세요."
+                            "title": "자기장 밖에서도 활동할 수 있습니다",
+                            "body": "기본 자기장은 6페이즈로 줄어들며 마지막에는 한 점까지 좁아집니다. 경계 밖에서도 이동, 블록 파괴·설치와 상호작용이 가능하지만 계속 피해를 받습니다. 기본 피해량은 이전보다 1/3로 낮아졌습니다. 멀리 나갈수록 피해가 커지지는 않으며 단계마다 피해량이 달라집니다. 체력과 남은 시간을 확인하며 안전 구역으로 돌아오세요."
                         },
                         {
                             "title": "지옥과 엔드는 더 빠르게",
@@ -584,7 +584,7 @@
                     ]
                 }
             ],
-            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/9890888f2c1644863db9771275eaa874c780b372/games/minebattleroyale/manifest.json"
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/2b28e6441cb69dbea6ed0841c33d88e66e3cd3f9/games/minebattleroyale/manifest.json"
         }
     ],
     "launcher_update": {
