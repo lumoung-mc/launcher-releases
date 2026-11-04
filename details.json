@@ -1,6 +1,6 @@
 {
     "schema_version": 1,
-    "launcher_version": "1.0.16",
+    "launcher_version": "1.0.17",
     "games": [
         {
             "id": "cleancity",
@@ -424,7 +424,7 @@
         },
         {
             "id": "minebattleroyale",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "type": "minecraft_java_edition",
             "name": "마인배틀로얄",
             "minecraft_version": "26.2",
@@ -582,14 +582,53 @@
                             "body": "살아 있는 상태에서 ESC 메뉴의 나가기를 누르면 경기 포기 확인창이 뜹니다. 포기를 확정하면 더 이상 생존자로 참여할 수 없습니다. 결과 화면의 로비로 나가기도 확인 후 진행됩니다. 방장이 나가면 방이 종료되고 다른 참가자도 연결이 끊어지므로 주의하세요."
                         }
                     ]
+                },
+                {
+                    "title": "닉네임과 후원 연결",
+                    "articles": [
+                        {
+                            "title": "한글 표시 닉네임 정하기",
+                            "body": "설정 → API에서 표시 닉네임을 입력하고 닉네임 저장을 누르세요. 한글을 포함해 24자까지 정할 수 있으며 대기방, HUD, 채팅, 이름표, Tab 목록과 경기 결과에 반영됩니다. 계정 이름 사용을 누르면 원래 이름으로 돌아갑니다."
+                        },
+                        {
+                            "title": "내 방송국 연결하기",
+                            "body": "설정 → API에서 내 SOOP 방송국 URL을 입력한 뒤 저장하고 연결을 누르세요. 참가자는 각자 자신의 방송국을 연결할 수 있습니다. 연결 해제를 누르면 후원 연결을 종료합니다. 후원 보상은 경기 중 살아 있는 플레이어에게 지급됩니다."
+                        },
+                        {
+                            "title": "후원 보상",
+                            "body": "아래 개수로 후원하면 연결한 플레이어에게 해당 보상을 지급합니다. 철 도구는 철 검·곡괭이·도끼·삽·괭이 중 하나입니다.",
+                            "rows": [
+                                {
+                                    "label": "10풍",
+                                    "value": "빵 3개"
+                                },
+                                {
+                                    "label": "30풍",
+                                    "value": "철 도구 무작위 1개"
+                                },
+                                {
+                                    "label": "50풍",
+                                    "value": "철 주괴 10개"
+                                },
+                                {
+                                    "label": "100풍",
+                                    "value": "다이아몬드 3개"
+                                },
+                                {
+                                    "label": "200풍",
+                                    "value": "회복 포션 II 1개"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ],
-            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/2b28e6441cb69dbea6ed0841c33d88e66e3cd3f9/games/minebattleroyale/manifest.json"
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/600a8b9b6f9921a232900f22191eec238d3120a8/games/minebattleroyale/manifest.json"
         }
     ],
     "launcher_update": {
-        "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/launcher/windows/LumoungsLauncher-1.0.16-Setup.exe",
-        "sha256": "579f31057668ce6b89a75ec15ebc456b3c4b81c62ff94e63b7b9ee50e476d494",
-        "size": 48480312
+        "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/launcher/windows/LumoungsLauncher-1.0.17-Setup.exe",
+        "sha256": "85b4de90cbf0f54e34c73fdff7217c187cbea0df87e68b8f05f922d002ee80b0",
+        "size": 48496265
     }
 }
