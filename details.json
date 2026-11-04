@@ -4,7 +4,7 @@
     "games": [
         {
             "id": "cleancity",
-            "version": "1.0.28",
+            "version": "1.0.29",
             "type": "minecraft_java_edition",
             "name": "쓱싹서버",
             "minecraft_version": "26.2",
@@ -28,7 +28,7 @@
                 "yingnu97",
                 "bingddo"
             ],
-            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/d65fcc037b13f392d51238f11b4b032ebc8c439d/games/cleancity/manifest.json",
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/d83ed1761510730c73386a23c460081f26253fd5/games/cleancity/manifest.json",
             "assets": {
                 "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/logo.png?v=4c90cbc390e56cd7",
                 "thumbnail": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/thumbnail.png?v=a8be3c6c098a8f3c",
@@ -338,7 +338,7 @@
         },
         {
             "id": "islandcastaway",
-            "version": "1.0.20",
+            "version": "1.0.21",
             "type": "minecraft_java_edition",
             "name": "자라섬 표류기",
             "minecraft_version": "26.3",
@@ -378,7 +378,7 @@
                     "articles": [
                         {
                             "title": "바다 한가운데, 우리들의 섬",
-                            "body": "끝없이 펼쳐진 바다와 하나뿐인 열대섬. 중심의 깃발을 지키며 얼마나 오래 버틸 수 있을까요? 미니맵에서 깃발과 일행을 찾아보세요. M을 누르면 큰 지도와 내 좌표를 확인할 수 있어요."
+                            "body": "끝없이 펼쳐진 바다와 하나뿐인 열대섬. 중심의 깃발을 지키며 얼마나 오래 버틸 수 있을까요? 미니맵에서 깃발과 플레이어를 찾아보세요. M을 누르면 큰 지도와 내 좌표를 확인할 수 있어요."
                         },
                         {
                             "title": "해가 지기 전에",
@@ -407,7 +407,7 @@
                         },
                         {
                             "title": "함께라면 더 오래",
-                            "body": "일행을 부르고 싶다면 ESC → 초대 코드 → 발급에서 코드를 받아 알려 주세요. 초대를 받았다면 메인 화면의 서버 참여에서 상대방에게 받은 초대코드를 입력하세요. 힘을 합쳐 다음 밤도 버텨 보세요."
+                            "body": "플레이어를 부르고 싶다면 ESC → 초대 코드 → 발급에서 코드를 받아 알려 주세요. 초대를 받았다면 메인 화면의 서버 참여에서 상대방에게 받은 초대코드를 입력하세요. 힘을 합쳐 다음 밤도 버텨 보세요."
                         },
                         {
                             "title": "더 튼튼한 장비를 향해",
@@ -420,11 +420,11 @@
                     ]
                 }
             ],
-            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/227d15633f76df373917944de79d5475975f34dd/games/islandcastaway/manifest.json"
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/d83ed1761510730c73386a23c460081f26253fd5/games/islandcastaway/manifest.json"
         },
         {
             "id": "minebattleroyale",
-            "version": "1.0.6",
+            "version": "1.0.7",
             "type": "minecraft_java_edition",
             "name": "마인배틀로얄",
             "minecraft_version": "26.2",
@@ -627,7 +627,7 @@
                     ]
                 }
             ],
-            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/a50ed1feba903090f494f5dce5e1ee7fb4e7f324/games/minebattleroyale/manifest.json"
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/d83ed1761510730c73386a23c460081f26253fd5/games/minebattleroyale/manifest.json"
         }
     ],
     "launcher_update": {
