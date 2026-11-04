@@ -421,6 +421,164 @@
                 }
             ],
             "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/758366b7fe2f91ce9fdc6312a666c7f832724508/games/islandcastaway/manifest.json"
+        },
+        {
+            "id": "minebattleroyale",
+            "version": "1.0.0",
+            "type": "minecraft_java_edition",
+            "name": "마인배틀로얄",
+            "minecraft_version": "26.2",
+            "java_major_version": 25,
+            "loader_version": "0.20.1",
+            "renderer_lock": "vulkan",
+            "notices": [],
+            "patch_notes": [],
+            "assets": {
+                "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/logo.png?v=f3dfe037a63bfd54",
+                "game_logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/game_logo.png?v=c989f200db6d1bed",
+                "thumbnail": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/thumbnail.png?v=b90eacc580748970",
+                "loop_background": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/background.mp4?v=e5fde60b1f30b206"
+            },
+            "whitelist": [
+                "Macaroon3145",
+                "Ttankkeo",
+                "lumoungS2"
+            ],
+            "wiki": [
+                {
+                    "title": "처음 시작",
+                    "articles": [
+                        {
+                            "title": "마지막까지 살아남으세요",
+                            "body": "자원을 모으고 장비를 마련해 마지막까지 살아남는 배틀로얄입니다. 개인전에서는 마지막 생존자가, 팀전에서는 마지막까지 남은 팀이 승리합니다. 점점 줄어드는 자기장을 확인하며 이동하세요."
+                        },
+                        {
+                            "title": "게임 만들기",
+                            "body": "메인 화면에서 게임 만들기를 누르고 서버 이름, 최대 인원, 팀 최대 인원을 정한 뒤 만들기를 누르세요. 최대 인원은 관전자를 포함해 64명, 팀 최대 인원은 1~10명입니다. 팀 최대 인원을 1명으로 설정하면 개인전으로 즐길 수 있습니다."
+                        },
+                        {
+                            "title": "초대코드로 참여하기",
+                            "body": "방장은 대기방에 표시된 초대코드를 복사해 함께할 사람에게 보내 주세요. 초대를 받은 사람은 메인 화면의 참여하기에서 초대코드를 붙여넣어 참가하면 됩니다."
+                        }
+                    ]
+                },
+                {
+                    "title": "대기방과 팀 편성",
+                    "articles": [
+                        {
+                            "title": "원하는 자리에 앉기",
+                            "body": "빈 자리를 누르거나 내 플레이어를 빈 자리로 드래그하면 자리를 옮길 수 있습니다. 같은 팀 안에서도 다른 자리로 이동할 수 있습니다. 함께할 사람과 같은 팀에 자리를 잡으세요."
+                        },
+                        {
+                            "title": "방장의 대기방 관리",
+                            "body": "방장은 플레이어를 드래그해 다른 빈 자리로 옮길 수 있습니다. 플레이어를 우클릭하면 대기 목록이나 관전자로 이동시키거나 추방하는 메뉴를 열 수 있습니다."
+                        },
+                        {
+                            "title": "설정을 정하고 시작하기",
+                            "body": "방장은 매치 설정에서 경기 구성을 바꿀 수 있습니다. 고급 설정에서는 자기장 크기와 단계별 대기 시간, 축소 시간, 피해량을 정할 수 있습니다. 초기 자기장 크기를 바꾸면 나머지 자기장 설정도 그 크기에 맞춰 자동으로 조정됩니다. 대기 중인 참가자를 모두 팀에 배정한 뒤 시작을 누르세요."
+                        }
+                    ]
+                },
+                {
+                    "title": "스폰 선택",
+                    "articles": [
+                        {
+                            "title": "10초 뒤 지도가 열립니다",
+                            "body": "방장이 시작을 누르면 10초 카운트다운 후 스폰 선택 지도가 열립니다. 스폰 위치를 고를 수 있는 시간은 1분 30초입니다."
+                        },
+                        {
+                            "title": "좌클릭으로 스폰 위치 확정",
+                            "body": "지도에서 원하는 위치를 좌클릭한 뒤 확인창에서 확정하세요. 선택 시간이 남아 있으면 다른 위치를 다시 선택할 수 있습니다. 스폰 위치는 각자 정합니다. 팀원과 같은 곳에서 시작하고 싶다면 지도에 핑을 찍어 위치를 맞춰 주세요."
+                        },
+                        {
+                            "title": "모두 선택해도 시간이 끝날 때 출발",
+                            "body": "전원이 위치를 확정해도 선택 시간 1분 30초가 끝날 때까지 기다립니다. 시간이 끝나면 각자 선택한 위치 근처의 안전한 지점에 스폰됩니다. 선택하지 않은 사람은 무작위 위치에 스폰됩니다."
+                        }
+                    ]
+                },
+                {
+                    "title": "지도와 팀원 확인",
+                    "articles": [
+                        {
+                            "title": "지도 조작",
+                            "body": "스폰 선택 화면과 큰 지도에서는 다음 조작을 사용할 수 있습니다.",
+                            "rows": [
+                                {
+                                    "label": "M",
+                                    "value": "경기 중 큰 지도 열기"
+                                },
+                                {
+                                    "label": "마우스 휠",
+                                    "value": "지도 확대·축소"
+                                },
+                                {
+                                    "label": "드래그",
+                                    "value": "지도 이동"
+                                },
+                                {
+                                    "label": "우클릭",
+                                    "value": "내 색상의 팀 핑 찍기"
+                                },
+                                {
+                                    "label": "좌클릭",
+                                    "value": "스폰 선택 중 위치 선택·확인창 열기"
+                                },
+                                {
+                                    "label": "ESC",
+                                    "value": "큰 지도 닫기"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "머리스킨과 색상으로 팀원 찾기",
+                            "body": "지도에서 플레이어는 머리스킨으로 표시됩니다. 머리 테두리 색상과 지도 핑 색상으로 팀원을 구분할 수 있습니다. 핑으로 모일 위치나 이동할 곳을 알려 주세요."
+                        },
+                        {
+                            "title": "경기 화면 읽기",
+                            "body": "왼쪽 위에는 남은 생존 인원과 팀 수가 각각 표시됩니다. 왼쪽 아래에서는 팀원의 머리스킨, 이름, 체력과 생존 상태를 볼 수 있습니다. 오른쪽 위에는 작은 지도와 자기장 단계, 남은 시간이 표시됩니다."
+                        },
+                        {
+                            "title": "지도에서 자기장 확인하기",
+                            "body": "파란 선은 현재 자기장, 흰 선은 다음 자기장입니다. 아직 자세히 표시되지 않은 지역은 대략적인 지형으로 먼저 보이며, 이후 실제 지형으로 갱신됩니다."
+                        }
+                    ]
+                },
+                {
+                    "title": "경기와 자기장",
+                    "articles": [
+                        {
+                            "title": "아침부터 생존 준비",
+                            "body": "경기는 아침에 시작합니다. 주변 자원을 모아 도구와 무기, 방어구, 먹거리를 마련하세요. 팀원과 가까이 움직이며 다음 자기장 안으로 들어갈 길도 살펴보세요."
+                        },
+                        {
+                            "title": "자기장 밖에서도 이동할 수 있습니다",
+                            "body": "자기장은 단계별로 대기한 뒤 줄어듭니다. 경계 밖으로 나갈 수는 있지만 밖에 머무르면 계속 피해를 받습니다. 멀리 나갈수록 피해가 커지지는 않으며, 단계가 바뀌면 피해량도 달라질 수 있습니다. 체력과 남은 시간을 확인하며 안전 구역으로 돌아오세요."
+                        },
+                        {
+                            "title": "지옥과 엔드는 더 빠르게",
+                            "body": "지옥과 엔드의 자기장은 첫 단계를 건너뛰고 2단계부터 진행됩니다. 다른 차원에 오래 머무를 계획이라면 자기장 상태를 특히 주의해서 확인하세요."
+                        }
+                    ]
+                },
+                {
+                    "title": "관전과 경기 종료",
+                    "articles": [
+                        {
+                            "title": "팀원이 살아 있다면",
+                            "body": "사망해도 같은 팀의 생존자가 남아 있으면 살아 있는 팀원의 시점으로 관전합니다. 왼쪽·오른쪽 방향키로 관전할 팀원을 바꿀 수 있습니다."
+                        },
+                        {
+                            "title": "팀 전멸과 결과 화면",
+                            "body": "팀이 전멸하면 결과 화면에서 팀 순위와 내 킬 수를 확인할 수 있습니다. 관전 버튼을 누르면 자유롭게 남은 경기를 볼 수 있습니다. 마지막 팀이 정해지면 우승 팀에도 결과 화면이 표시되며, 남아 있는 우승 팀원은 피해를 받지 않습니다."
+                        },
+                        {
+                            "title": "경기 포기와 로비로 나가기",
+                            "body": "살아 있는 상태에서 ESC 메뉴의 나가기를 누르면 경기 포기 확인창이 뜹니다. 포기를 확정하면 더 이상 생존자로 참여할 수 없습니다. 결과 화면의 로비로 나가기도 확인 후 진행됩니다. 방장이 나가면 방이 종료되고 다른 참가자도 연결이 끊어지므로 주의하세요."
+                        }
+                    ]
+                }
+            ],
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/6dfb058478ece5712439ba936f6d7d02d2d2bea6/games/minebattleroyale/manifest.json"
         }
     ],
     "launcher_update": {
