@@ -424,7 +424,7 @@
         },
         {
             "id": "minebattleroyale",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "type": "minecraft_java_edition",
             "name": "마인배틀로얄",
             "minecraft_version": "26.2",
@@ -434,7 +434,7 @@
             "notices": [],
             "patch_notes": [],
             "assets": {
-                "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/logo.png?v=f3dfe037a63bfd54",
+                "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/logo.png?v=3415e9490f0ba9a6",
                 "game_logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/game_logo.png?v=c989f200db6d1bed",
                 "thumbnail": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/thumbnail.png?v=d2346575c8066adf",
                 "loop_background": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/background.mp4?v=cf5d1a3d86fb7b82"
@@ -623,7 +623,7 @@
                     ]
                 }
             ],
-            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/2cd707330b0b4271cf3067ebc697a0e898ef94cf/games/minebattleroyale/manifest.json"
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/39ac328009a6b9f7dfd9d1d0af899854f609b7ad/games/minebattleroyale/manifest.json"
         }
     ],
     "launcher_update": {
