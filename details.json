@@ -4,7 +4,7 @@
     "games": [
         {
             "id": "cleancity",
-            "version": "1.0.23",
+            "version": "1.0.24",
             "type": "minecraft_java_edition",
             "name": "쓱싹서버",
             "minecraft_version": "26.2",
@@ -28,7 +28,7 @@
                 "yingnu97",
                 "bingddo"
             ],
-            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/da205bb31ad8fb813eab0f0d18fa9ff53e66603e/games/cleancity/manifest.json",
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/82addc75e6303fb860d8e416bc849c3d8bd17820/games/cleancity/manifest.json",
             "assets": {
                 "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/logo.png?v=a618f78c16cd47ac",
                 "thumbnail": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/thumbnail.png?v=a8be3c6c098a8f3c",
