@@ -4,7 +4,7 @@
     "games": [
         {
             "id": "cleancity",
-            "version": "1.0.30",
+            "version": "1.0.31",
             "type": "minecraft_java_edition",
             "name": "쓱싹서버",
             "minecraft_version": "26.2",
@@ -28,7 +28,7 @@
                 "yingnu97",
                 "bingddo"
             ],
-            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/3c440b7a373c41a8f637284d1ac9a66d3dd61c8c/games/cleancity/manifest.json",
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/ea5b8627dac6e8ec19b8071f1a1db4fcfb47e6b0/games/cleancity/manifest.json",
             "assets": {
                 "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/logo.png?v=4c90cbc390e56cd7",
                 "thumbnail": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/thumbnail.png?v=a8be3c6c098a8f3c",
@@ -338,7 +338,7 @@
         },
         {
             "id": "islandcastaway",
-            "version": "1.0.22",
+            "version": "1.0.23",
             "type": "minecraft_java_edition",
             "name": "자라섬 표류기",
             "minecraft_version": "26.3",
@@ -420,11 +420,11 @@
                     ]
                 }
             ],
-            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/3c440b7a373c41a8f637284d1ac9a66d3dd61c8c/games/islandcastaway/manifest.json"
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/ea5b8627dac6e8ec19b8071f1a1db4fcfb47e6b0/games/islandcastaway/manifest.json"
         },
         {
             "id": "minebattleroyale",
-            "version": "1.0.9",
+            "version": "1.0.10",
             "type": "minecraft_java_edition",
             "name": "마인배틀로얄",
             "minecraft_version": "26.2",
@@ -627,7 +627,7 @@
                     ]
                 }
             ],
-            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/3c440b7a373c41a8f637284d1ac9a66d3dd61c8c/games/minebattleroyale/manifest.json"
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/ea5b8627dac6e8ec19b8071f1a1db4fcfb47e6b0/games/minebattleroyale/manifest.json"
         }
     ],
     "launcher_update": {
