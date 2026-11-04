@@ -424,7 +424,7 @@
         },
         {
             "id": "minebattleroyale",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "type": "minecraft_java_edition",
             "name": "마인배틀로얄",
             "minecraft_version": "26.2",
@@ -436,13 +436,23 @@
             "assets": {
                 "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/logo.png?v=f3dfe037a63bfd54",
                 "game_logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/game_logo.png?v=c989f200db6d1bed",
-                "thumbnail": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/thumbnail.png?v=b90eacc580748970",
-                "loop_background": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/background.mp4?v=e5fde60b1f30b206"
+                "thumbnail": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/thumbnail.png?v=1f6c15a972e52100",
+                "loop_background": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/background.mp4?v=eb6083cdcef5ce90"
             },
             "whitelist": [
                 "Macaroon3145",
                 "Ttankkeo",
-                "lumoungS2"
+                "lumoungS2",
+                "eunhye0305",
+                "dotcha0107",
+                "Jack_Jxck",
+                "siro59",
+                "Darae",
+                "haming",
+                "dduning1",
+                "bigwin87",
+                "DDuning1",
+                "Dodamhi_"
             ],
             "wiki": [
                 {
@@ -487,12 +497,12 @@
                             "body": "방장이 시작을 누르면 10초 카운트다운 후 스폰 선택 지도가 열립니다. 스폰 위치를 고를 수 있는 시간은 1분 30초입니다."
                         },
                         {
-                            "title": "좌클릭으로 스폰 위치 확정",
-                            "body": "지도에서 원하는 위치를 좌클릭한 뒤 확인창에서 확정하세요. 선택 시간이 남아 있으면 다른 위치를 다시 선택할 수 있습니다. 스폰 위치는 각자 정합니다. 팀원과 같은 곳에서 시작하고 싶다면 지도에 핑을 찍어 위치를 맞춰 주세요."
+                            "title": "우클릭 핑으로 스폰 위치 선택",
+                            "body": "지도에서 원하는 위치를 우클릭해 핑을 찍으세요. 내가 마지막으로 찍은 핑이 내 스폰 위치가 됩니다. 선택 시간이 남아 있으면 다른 곳에 다시 핑을 찍어 위치를 바꿀 수 있습니다. 팀원도 각자 자기 핑으로 위치를 정하므로 함께 시작하려면 같은 곳에 핑을 찍어 주세요. 선택 완료 인원은 우리 팀 기준으로 표시됩니다."
                         },
                         {
                             "title": "모두 선택해도 시간이 끝날 때 출발",
-                            "body": "전원이 위치를 확정해도 선택 시간 1분 30초가 끝날 때까지 기다립니다. 시간이 끝나면 각자 선택한 위치 근처의 안전한 지점에 스폰됩니다. 선택하지 않은 사람은 무작위 위치에 스폰됩니다."
+                            "body": "우리 팀이나 다른 참가자들이 모두 핑을 찍어도 선택 시간 1분 30초가 끝날 때까지 기다립니다. 시간이 끝나면 각자 마지막으로 핑을 찍은 위치 근처의 안전한 지점에 스폰됩니다. 핑을 찍지 않은 사람은 무작위 위치에 스폰됩니다."
                         }
                     ]
                 },
@@ -517,11 +527,7 @@
                                 },
                                 {
                                     "label": "우클릭",
-                                    "value": "내 색상의 팀 핑 찍기"
-                                },
-                                {
-                                    "label": "좌클릭",
-                                    "value": "스폰 선택 중 위치 선택·확인창 열기"
+                                    "value": "내 색상의 팀 핑 찍기 · 스폰 선택 중에는 내 스폰 위치 지정"
                                 },
                                 {
                                     "label": "ESC",
@@ -569,7 +575,7 @@
                         },
                         {
                             "title": "팀 전멸과 결과 화면",
-                            "body": "팀이 전멸하면 결과 화면에서 팀 순위와 내 킬 수를 확인할 수 있습니다. 관전 버튼을 누르면 자유롭게 남은 경기를 볼 수 있습니다. 마지막 팀이 정해지면 우승 팀에도 결과 화면이 표시되며, 남아 있는 우승 팀원은 피해를 받지 않습니다."
+                            "body": "팀이 전멸하면 결과 화면에서 팀 순위와 내 킬 수를 확인할 수 있습니다. 관전 버튼을 누르면 자유롭게 남은 경기를 볼 수 있습니다. 마지막 팀이 정해지면 우승 팀에도 결과 화면이 표시되며, 남아 있는 우승 팀원은 피해를 받지 않습니다. 경기가 끝나면 방장은 전체 경기 결과에서 모든 팀의 순위와 플레이어별 순위·킬 수를 볼 수 있습니다. 관전 중이라면 ESC 메뉴에서도 전체 경기 결과를 열 수 있습니다."
                         },
                         {
                             "title": "경기 포기와 로비로 나가기",
@@ -578,7 +584,7 @@
                     ]
                 }
             ],
-            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/6dfb058478ece5712439ba936f6d7d02d2d2bea6/games/minebattleroyale/manifest.json"
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/9890888f2c1644863db9771275eaa874c780b372/games/minebattleroyale/manifest.json"
         }
     ],
     "launcher_update": {
