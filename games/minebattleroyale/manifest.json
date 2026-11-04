@@ -1,7 +1,7 @@
 {
     "schema_version": 1,
     "game_id": "minebattleroyale",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "minecraft_version": "26.2",
     "java_major_version": 25,
     "loader": {
@@ -11,16 +11,16 @@
     "files": [
         {
             "path": "mods/fabric-api-0.160.0+26.2.jar",
-            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/c8aaf5da2827000245ea4e326fd5bdf159fe9208/games/minebattleroyale/minecraft/mods/fabric-api-0.160.0%2B26.2.jar",
+            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/aa0d683936c7a5cd973be5103c032f9558e07704/games/minebattleroyale/minecraft/mods/fabric-api-0.160.0%2B26.2.jar",
             "size": 2542898,
             "sha256": "5f3dff88e1661166e222213302b25ace6c36dc3683804cbd4b5acf93138ea05e",
             "mode": "managed"
         },
         {
             "path": "mods/minebattleroyale-1.0-SNAPSHOT.jar",
-            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/c8aaf5da2827000245ea4e326fd5bdf159fe9208/games/minebattleroyale/minecraft/mods/minebattleroyale-1.0-SNAPSHOT.jar",
-            "size": 80022298,
-            "sha256": "157c7b73776d80a2f4803730d7f2c54a207648a3828c2b4e5cbfdd2432851fff",
+            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/aa0d683936c7a5cd973be5103c032f9558e07704/games/minebattleroyale/minecraft/mods/minebattleroyale-1.0-SNAPSHOT.jar",
+            "size": 81156095,
+            "sha256": "b09318be563489ae5c5e2ef0190b2c96cc3f8853c34092acbc24a87bc1767752",
             "mode": "managed"
         }
     ]
