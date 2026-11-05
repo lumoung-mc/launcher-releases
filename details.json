@@ -424,7 +424,7 @@
         },
         {
             "id": "minebattleroyale",
-            "version": "1.0.10",
+            "version": "1.0.11",
             "type": "minecraft_java_edition",
             "name": "마인배틀로얄",
             "minecraft_version": "26.2",
@@ -436,8 +436,8 @@
             "assets": {
                 "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/logo.png?v=a8be307f8eff8cc1",
                 "game_logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/game_logo.png?v=c989f200db6d1bed",
-                "thumbnail": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/thumbnail.png?v=d2346575c8066adf",
-                "loop_background": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/background.mp4?v=cf5d1a3d86fb7b82"
+                "thumbnail": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/thumbnail.png?v=d39e49a22166ee6c",
+                "loop_background": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/background.mp4?v=4e867778d51b894b"
             },
             "whitelist": [
                 "Macaroon3145",
@@ -627,7 +627,7 @@
                     ]
                 }
             ],
-            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/ea5b8627dac6e8ec19b8071f1a1db4fcfb47e6b0/games/minebattleroyale/manifest.json"
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/1b7cbca5bb83070a2c6c58584e4b35920552fbb1/games/minebattleroyale/manifest.json"
         }
     ],
     "launcher_update": {
