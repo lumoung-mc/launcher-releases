@@ -424,7 +424,7 @@
         },
         {
             "id": "minebattleroyale",
-            "version": "1.0.11",
+            "version": "1.0.12",
             "type": "minecraft_java_edition",
             "name": "마인배틀로얄",
             "minecraft_version": "26.2",
@@ -627,7 +627,7 @@
                     ]
                 }
             ],
-            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/1b7cbca5bb83070a2c6c58584e4b35920552fbb1/games/minebattleroyale/manifest.json"
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/400e7b4c3795236ac58c4cf9495c90845374b69e/games/minebattleroyale/manifest.json"
         }
     ],
     "launcher_update": {
