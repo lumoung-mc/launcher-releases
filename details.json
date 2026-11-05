@@ -4,7 +4,7 @@
     "games": [
         {
             "id": "cleancity",
-            "version": "1.0.31",
+            "version": "1.0.32",
             "type": "minecraft_java_edition",
             "name": "쓱싹서버",
             "minecraft_version": "26.2",
@@ -28,7 +28,7 @@
                 "yingnu97",
                 "bingddo"
             ],
-            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/ea5b8627dac6e8ec19b8071f1a1db4fcfb47e6b0/games/cleancity/manifest.json",
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/bbc1c131e0a367f9393a5a23cc811a348c958bb8/games/cleancity/manifest.json",
             "assets": {
                 "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/logo.png?v=4c90cbc390e56cd7",
                 "thumbnail": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/thumbnail.png?v=a8be3c6c098a8f3c",
@@ -44,8 +44,8 @@
                             "body": "루뭉S2의 스트리머 협동 청소 서버입니다. 도시를 청소하고, 번 돈으로 더 좋은 장비를 마련하세요."
                         },
                         {
-                            "title": "첫 청소부터 업그레이드까지",
-                            "body": "① 테무산 스펀지를 들고 우클릭으로 청소하세요.\n② 더러워진 도구는 물 양동이에 씻으세요.\n③ R키로 남은 오염과 쓰레기를 찾으세요.\n④ G키로 장비를 업그레이드하세요.\n⑤ 쓰레기는 통에 담아 화로에서 태우세요."
+                            "title": "첫 청소부터 강화까지",
+                            "body": "① 테무산 스펀지를 들고 우클릭으로 청소하세요.\n② 더러워진 도구는 물 양동이에 씻으세요.\n③ R키로 남은 오염과 쓰레기를 찾으세요.\n④ G키로 장비를 강화하세요.\n⑤ 쓰레기는 통에 담아 화로에서 태우세요."
                         },
                         {
                             "title": "목표는 도시 정화율 99%",
@@ -82,7 +82,7 @@
                                 },
                                 {
                                     "label": "G",
-                                    "value": "장비 업그레이드 창 열기"
+                                    "value": "장비 강화 창 열기"
                                 }
                             ]
                         },
@@ -97,101 +97,27 @@
                     ]
                 },
                 {
-                    "title": "장비와 업그레이드",
+                    "title": "장비와 강화",
                     "articles": [
                         {
-                            "title": "청소 도구",
-                            "body": "더 좋은 장비로 업그레이드하면 더 넓은 곳을 청소할 수 있습니다. 청소 도구는 실수로 버릴 수 없도록 보호됩니다.",
-                            "rows": [
-                                {
-                                    "label": "테무산 스펀지",
-                                    "value": "반경 0.30m · 도달 3.0m"
-                                },
-                                {
-                                    "label": "스펀지",
-                                    "value": "반경 0.40m · 도달 3.0m"
-                                },
-                                {
-                                    "label": "고급 스펀지",
-                                    "value": "반경 0.55m · 도달 3.0m"
-                                },
-                                {
-                                    "label": "테무산 청소솔",
-                                    "value": "반경 0.60m · 도달 3.8m"
-                                },
-                                {
-                                    "label": "청소솔",
-                                    "value": "반경 0.70m · 도달 4.0m"
-                                },
-                                {
-                                    "label": "고급 청소솔",
-                                    "value": "반경 0.85m · 도달 4.2m"
-                                },
-                                {
-                                    "label": "물걸레",
-                                    "value": "반경 1.00m · 도달 4.5m"
-                                },
-                                {
-                                    "label": "고급 물걸레",
-                                    "value": "반경 1.75m · 도달 4.5m"
-                                }
-                            ]
+                            "title": "청소하고, 재료를 모으고, 강화하세요",
+                            "body": "청소한 자리에서 18종의 강화 재료를 얻을 수 있습니다. 똥덩이도 바닥에 떨어지니 직접 주워 보세요. G키 또는 ESC 메뉴의 장비 강화에서 현재 도구의 다음 강화를 확인할 수 있습니다."
                         },
                         {
-                            "title": "G키로 장비 업그레이드",
-                            "body": "G키를 눌러 장비를 업그레이드하세요. 이전 장비 1개와 보유금이 필요합니다. 장비가 겹쳐 있다면 1개씩 나눠 주세요.",
-                            "rows": [
-                                {
-                                    "label": "테무산 스펀지 → 스펀지",
-                                    "value": "4,300원"
-                                },
-                                {
-                                    "label": "스펀지 → 고급 스펀지",
-                                    "value": "14,700원"
-                                },
-                                {
-                                    "label": "고급 스펀지 → 테무산 청소솔",
-                                    "value": "47,500원"
-                                },
-                                {
-                                    "label": "테무산 청소솔 → 청소솔",
-                                    "value": "57,900원"
-                                },
-                                {
-                                    "label": "청소솔 → 고급 청소솔",
-                                    "value": "106,900원"
-                                },
-                                {
-                                    "label": "고급 청소솔 → 물걸레",
-                                    "value": "189,200원"
-                                },
-                                {
-                                    "label": "물걸레 → 고급 물걸레",
-                                    "value": "271,000원"
-                                },
-                                {
-                                    "label": "처음부터 최종 단계까지",
-                                    "value": "누적 691,500원"
-                                }
-                            ]
+                            "title": "지금 가진 장비를 강화하세요",
+                            "body": "현재 장비의 다음 강화만 표시됩니다. 첫 강화는 반드시 성공하며, 실패해도 장비가 사라지거나 약해지지 않습니다. 실패할 때마다 성공률이 조금 오르고, 10번 연속 실패하면 다음 시도는 반드시 성공합니다. 재료와 비용은 시도할 때마다 사용됩니다."
+                        },
+                        {
+                            "title": "가끔 발견하는 특별 간식",
+                            "body": "아주 드물게 마카롱과 땅콩이 떨어집니다. 마카롱을 먹으면 2분 동안 빠르게 이동하고, 땅콩을 먹으면 3분 동안 도구가 절반만큼 더러워집니다. 어딘가 개발자의 향기가 납니다."
                         },
                         {
                             "title": "고급 물걸레",
-                            "body": "일반 물걸레보다 넓게 청소할 수 있는 장비입니다. 더러워지면 물 양동이에 씻어 주세요.",
-                            "rows": [
-                                {
-                                    "label": "업그레이드로 획득",
-                                    "value": "내구도 없음 · 세척 필요"
-                                },
-                                {
-                                    "label": "100개 후원 보상으로 획득",
-                                    "value": "내구도 900 · 세척 필요"
-                                }
-                            ]
+                            "body": "마지막 단계의 청소 반경은 2m입니다. 더러워지면 물 양동이에 씻어 주세요."
                         },
                         {
                             "title": "클린 포션",
-                            "body": "던진 곳 주변의 오염을 지웁니다. 청소 반경은 7.5m입니다."
+                            "body": "던진 곳 주변 7.5m의 오염을 지웁니다."
                         }
                     ]
                 },
@@ -277,7 +203,7 @@
                                 },
                                 {
                                     "label": "100개",
-                                    "value": "고급 물걸레 1개 · 내구도 있음"
+                                    "value": "김병살 빗자루 1개"
                                 },
                                 {
                                     "label": "330개",
