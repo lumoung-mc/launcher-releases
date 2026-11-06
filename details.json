@@ -264,7 +264,7 @@
         },
         {
             "id": "islandcastaway",
-            "version": "1.0.23",
+            "version": "1.0.24",
             "type": "minecraft_java_edition",
             "name": "자라섬 표류기",
             "minecraft_version": "26.3",
@@ -346,11 +346,11 @@
                     ]
                 }
             ],
-            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/ea5b8627dac6e8ec19b8071f1a1db4fcfb47e6b0/games/islandcastaway/manifest.json"
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/d00495d271e412d51b8c1ae3875c315d1035768a/games/islandcastaway/manifest.json"
         },
         {
             "id": "minebattleroyale",
-            "version": "1.0.12",
+            "version": "1.0.13",
             "type": "minecraft_java_edition",
             "name": "마인배틀로얄",
             "minecraft_version": "26.2",
@@ -553,7 +553,7 @@
                     ]
                 }
             ],
-            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/400e7b4c3795236ac58c4cf9495c90845374b69e/games/minebattleroyale/manifest.json"
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/d00495d271e412d51b8c1ae3875c315d1035768a/games/minebattleroyale/manifest.json"
         }
     ],
     "launcher_update": {
