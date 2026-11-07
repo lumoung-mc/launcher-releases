@@ -114,4 +114,15 @@ SHA-256과 크기는 로컬 줄바꿈 변환이 아닌 실제 Git 커밋의 파�
 2. `python tools/build_manifest.py --game islandcastaway` 실행 후 설치 목록을 커밋합니다.
 3. `python tools/build_manifest.py --game islandcastaway --pin-manifest` 실행 후 카탈로그를 커밋하고 푸시합니다.
 
-Minecraft·Fabric·Java 버전은 게임별 `minecraft_version`, `loader_version`, `java_major_version`으로 지정합니다.
+`details.json`의 각 게임에 `minecraft_version`, `java_major_version`, `loader_type`, `loader_version`을 지정합니다.
+
+| `loader_type` | `loader_version` |
+| --- | --- |
+| `fabric` | Fabric Loader 버전. `loader_type`을 생략한 기존 항목에도 적용됩니다. |
+| `quilt` | Quilt Loader 버전 |
+| `forge` | Forge 버전 (예 `47.4.0`) 또는 Minecraft 버전을 붙인 전체 버전 (예 `1.20.1-47.4.0`) |
+| `neoforge` | NeoForge 버전 (예 `21.1.172`는 Minecraft `1.21.1`용) |
+| `vanilla` | `loader_version` 필드를 생략합니다. |
+
+Forge와 NeoForge는 매니페스트 생성 시 공식 Maven의 설치 주소와 SHA-1이 자동으로 기록됩니다.
+로더를 바꿀 때는 해당 로더에 맞는 모드 파일을 준비하고, 게임 `version`을 올린 뒤 매니페스트를 다시 생성하고 고정합니다.

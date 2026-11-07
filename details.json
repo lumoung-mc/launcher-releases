@@ -9,6 +9,7 @@
             "name": "쓱싹서버",
             "minecraft_version": "26.2",
             "java_major_version": 25,
+            "loader_type": "fabric",
             "loader_version": "0.19.5",
             "renderer_lock": "vulkan",
             "server": {
@@ -269,6 +270,7 @@
             "name": "자라섬 표류기",
             "minecraft_version": "26.3",
             "java_major_version": 25,
+            "loader_type": "fabric",
             "loader_version": "0.20.1",
             "renderer_lock": "vulkan",
             "notices": [
@@ -355,6 +357,7 @@
             "name": "마인배틀로얄",
             "minecraft_version": "26.2",
             "java_major_version": 25,
+            "loader_type": "fabric",
             "loader_version": "0.20.1",
             "renderer_lock": "vulkan",
             "notices": [],
