@@ -42,7 +42,13 @@
                     "articles": [
                         {
                             "title": "쓱싹서버에 오신 것을 환영합니다",
-                            "body": "루뭉S2의 스트리머 협동 청소 서버입니다. 도시를 청소하고, 번 돈으로 더 좋은 장비를 마련하세요."
+                            "body": "루뭉S2의 스트리머 협동 청소 서버입니다. 도시를 청소하고, 번 돈으로 더 좋은 장비를 마련하세요.",
+                            "images": [
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/wiki/starter-equipment.png?v=b3c106ea60354d1b",
+                                    "caption": "G키로 보는 첫 장비 강화"
+                                }
+                            ]
                         },
                         {
                             "title": "첫 청소부터 강화까지",
@@ -107,10 +113,6 @@
                         {
                             "title": "지금 가진 장비를 강화하세요",
                             "body": "현재 장비의 다음 강화만 표시됩니다. 첫 강화는 반드시 성공하며, 실패해도 장비가 사라지거나 약해지지 않습니다. 실패할 때마다 성공률이 조금 오르고, 10번 연속 실패하면 다음 시도는 반드시 성공합니다. 재료와 비용은 시도할 때마다 사용됩니다."
-                        },
-                        {
-                            "title": "가끔 발견하는 특별 간식",
-                            "body": "아주 드물게 마카롱과 땅콩이 떨어집니다. 마카롱을 먹으면 2분 동안 빠르게 이동하고, 땅콩을 먹으면 3분 동안 도구가 절반만큼 더러워집니다. 어딘가 개발자의 향기가 납니다."
                         },
                         {
                             "title": "고급 물걸레",
@@ -306,11 +308,23 @@
                     "articles": [
                         {
                             "title": "바다 한가운데, 우리들의 섬",
-                            "body": "끝없이 펼쳐진 바다와 하나뿐인 열대섬. 중심의 깃발을 지키며 얼마나 오래 버틸 수 있을까요? 미니맵에서 깃발과 플레이어를 찾아보세요. M을 누르면 큰 지도와 내 좌표를 확인할 수 있어요."
+                            "body": "끝없이 펼쳐진 바다와 하나뿐인 열대섬. 중심의 깃발을 지키며 얼마나 오래 버틸 수 있을까요? 미니맵에서 깃발과 플레이어를 찾아보세요. M을 누르면 큰 지도와 내 좌표를 확인할 수 있어요.",
+                            "images": [
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/wiki/island-flag.png?v=04d9a8c50c8d190d",
+                                    "caption": "섬 중앙의 깃발과 밤이 오기 전 경고"
+                                }
+                            ]
                         },
                         {
                             "title": "해가 지기 전에",
-                            "body": "낮에는 자원을 모으고 방어를 준비하세요. 밤을 넘길수록 더 다양한 적이 몰려옵니다. 5웨이브부터는 낙하산을 타고 안쪽으로 들어오는 적도 조심하세요. 10웨이브마다 보스가, 50웨이브에는 엔더드래곤이 찾아옵니다!"
+                            "body": "낮에는 자원을 모으고 방어를 준비하세요. 밤을 넘길수록 더 다양한 적이 몰려옵니다. 5웨이브부터는 낙하산을 타고 안쪽으로 들어오는 적도 조심하세요. 10웨이브마다 보스가, 50웨이브에는 엔더드래곤이 찾아옵니다!",
+                            "images": [
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/wiki/first-wave.png?v=d15aed8e1d01c9a5",
+                                    "caption": "해 질 무렵 시작되는 첫 번째 웨이브"
+                                }
+                            ]
                         },
                         {
                             "title": "다시 아침이 오면",
@@ -389,7 +403,13 @@
                     "articles": [
                         {
                             "title": "마지막까지 살아남으세요",
-                            "body": "자원을 모으고 장비를 마련해 마지막까지 살아남는 배틀로얄입니다. 개인전에서는 마지막 생존자가, 팀전에서는 마지막까지 남은 팀이 승리합니다. 점점 줄어드는 자기장을 확인하며 이동하세요."
+                            "body": "자원을 모으고 장비를 마련해 마지막까지 살아남는 배틀로얄입니다. 개인전에서는 마지막 생존자가, 팀전에서는 마지막까지 남은 팀이 승리합니다. 점점 줄어드는 자기장을 확인하며 이동하세요.",
+                            "images": [
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/wiki/spawn-selection.png?v=e388c738e5a4ade0",
+                                    "caption": "지도에 핑을 찍어 첫 스폰 위치 선택"
+                                }
+                            ]
                         },
                         {
                             "title": "게임 만들기",
