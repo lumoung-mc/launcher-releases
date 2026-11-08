@@ -52,11 +52,23 @@
                         },
                         {
                             "title": "첫 청소부터 강화까지",
-                            "body": "① 테무산 스펀지를 들고 우클릭으로 청소하세요.\n② 더러워진 도구는 물 양동이에 씻으세요.\n③ R키로 남은 오염과 쓰레기를 찾으세요.\n④ G키로 장비를 강화하세요.\n⑤ 쓰레기는 통에 담아 화로에서 태우세요."
+                            "body": "① 테무산 스펀지를 들고 우클릭으로 청소하세요.\n② 더러워진 도구는 물 양동이에 씻으세요.\n③ R키로 남은 오염과 쓰레기를 찾으세요.\n④ G키로 장비를 강화하세요.\n⑤ 쓰레기는 통에 담아 화로에서 태우세요.",
+                            "images": [
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/wiki/starter-sponge.png?v=6b7767ab82d9f494",
+                                    "caption": "시작 장비인 테무산 스펀지"
+                                }
+                            ]
                         },
                         {
                             "title": "목표는 도시 정화율 99%",
-                            "body": "오염을 닦고 쓰레기를 치워 정화율 99%를 달성하면 클리어입니다. 클리어 후에는 모두 비행할 수 있고, 후원 보상은 종료됩니다."
+                            "body": "오염을 닦고 쓰레기를 치워 정화율 99%를 달성하면 클리어입니다. 클리어 후에는 모두 비행할 수 있고, 후원 보상은 종료됩니다.",
+                            "images": [
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/wiki/city-overview.png?v=fbf032128eadf717",
+                                    "caption": "위에서 내려다본 청소 구역"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -91,11 +103,23 @@
                                     "label": "G",
                                     "value": "장비 강화 창 열기"
                                 }
+                            ],
+                            "images": [
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/wiki/city-map.png?v=bb79a41d4505e6a2",
+                                    "caption": "도시 지도에서 현재 위치와 시설 확인"
+                                }
                             ]
                         },
                         {
                             "title": "스캔으로 작은 오염까지 찾기",
-                            "body": "R키로 주변 20m의 오염·쓰레기를 찾을 수 있습니다. 벽 뒤도 확인할 수 있습니다."
+                            "body": "R키로 주변 20m의 오염·쓰레기를 찾을 수 있습니다. 벽 뒤도 확인할 수 있습니다.",
+                            "images": [
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/wiki/pollution-scan.png?v=86275f004f32221e",
+                                    "caption": "스캔으로 강조된 바닥 오염과 쓰레기"
+                                }
+                            ]
                         },
                         {
                             "title": "체력과 사망 후 정리",
@@ -116,7 +140,13 @@
                         },
                         {
                             "title": "고급 물걸레",
-                            "body": "마지막 단계의 청소 반경은 2m입니다. 더러워지면 물 양동이에 씻어 주세요."
+                            "body": "마지막 단계의 청소 반경은 2m입니다. 더러워지면 물 양동이에 씻어 주세요.",
+                            "images": [
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/wiki/advanced-mop.png?v=221e14bf44f0f544",
+                                    "caption": "고급 물걸레를 장착한 모습"
+                                }
+                            ]
                         },
                         {
                             "title": "클린 포션",
@@ -133,7 +163,13 @@
                         },
                         {
                             "title": "물 양동이 사용법",
-                            "body": "더러운 도구를 들고 물 양동이를 향해 우클릭하세요. 물이 더러워지면 새 양동이로 교체하세요."
+                            "body": "더러운 도구를 들고 물 양동이를 향해 우클릭하세요. 물이 더러워지면 새 양동이로 교체하세요.",
+                            "images": [
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/wiki/water-bucket.png?v=b932ce05efb7e821",
+                                    "caption": "물걸레를 씻을 때 쓰는 물 양동이"
+                                }
+                            ]
                         },
                         {
                             "title": "양동이 이동과 폐기",
@@ -146,15 +182,33 @@
                     "articles": [
                         {
                             "title": "쓰레기는 담고, 태워야 수거 완료",
-                            "body": "맨손 우클릭으로 쓰레기를 잡아 쓰레기통에 담으세요. 담은 쓰레기통을 화로에서 태우면 수거가 완료됩니다."
+                            "body": "맨손 우클릭으로 쓰레기를 잡아 쓰레기통에 담으세요. 담은 쓰레기통을 화로에서 태우면 수거가 완료됩니다.",
+                            "images": [
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/wiki/incinerator.png?v=b90026171cab678c",
+                                    "caption": "모은 쓰레기를 처리하는 화로"
+                                }
+                            ]
                         },
                         {
                             "title": "쓰레기통은 최대 10개",
-                            "body": "한 통에 쓰레기를 최대 10개 담을 수 있습니다. 화로에서 태워야 돈과 청소 실적을 받습니다."
+                            "body": "한 통에 쓰레기를 최대 10개 담을 수 있습니다. 화로에서 태워야 돈과 청소 실적을 받습니다.",
+                            "images": [
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/wiki/trash-bin.png?v=6ae6780a4d3df085",
+                                    "caption": "쓰레기를 담는 초록색 쓰레기통"
+                                }
+                            ]
                         },
                         {
                             "title": "물 양동이·쓰레기통 소환 기계",
-                            "body": "기계 앞면의 초록색 버튼을 우클릭하면 물 양동이나 쓰레기통을 받을 수 있습니다."
+                            "body": "기계 앞면의 초록색 버튼을 우클릭하면 물 양동이나 쓰레기통을 받을 수 있습니다.",
+                            "images": [
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/cleancity/assets/wiki/supply-machines.png?v=0437a7313077fb41",
+                                    "caption": "파란색 물통 보급기와 초록색 쓰레기 처리기"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -313,6 +367,14 @@
                                 {
                                     "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/wiki/island-flag.png?v=04d9a8c50c8d190d",
                                     "caption": "섬 중앙의 깃발과 밤이 오기 전 경고"
+                                },
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/wiki/create-island.png?v=b66568b0994a9701",
+                                    "caption": "섬을 만들 때 월드 이름과 난이도 선택"
+                                },
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/wiki/island-map.png?v=c4afef1022d1765b",
+                                    "caption": "M키로 연 섬 지도"
                                 }
                             ]
                         },
@@ -323,6 +385,10 @@
                                 {
                                     "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/wiki/first-wave.png?v=d15aed8e1d01c9a5",
                                     "caption": "해 질 무렵 시작되는 첫 번째 웨이브"
+                                },
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/wiki/supply-crate.png?v=2b46f75b3ba04551",
+                                    "caption": "웨이브를 막고 받은 보급상자"
                                 }
                             ]
                         },
@@ -332,7 +398,13 @@
                         },
                         {
                             "title": "깃발을 더 든든하게",
-                            "body": "깃발을 우클릭해 재료와 물고기로 강화하거나 수리해 보세요. 다섯 가지 강화를 각각 5단계까지 올리고, 공격과 지원을 도와주는 열두 가지 기능도 열 수 있어요."
+                            "body": "깃발을 우클릭해 재료와 물고기로 강화하거나 수리해 보세요. 다섯 가지 강화를 각각 5단계까지 올리고, 공격과 지원을 도와주는 열두 가지 기능도 열 수 있어요.",
+                            "images": [
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/wiki/flag-workshop.png?v=7f5c07a548696ab6",
+                                    "caption": "중앙 깃발의 강화·기능·수리 메뉴"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -341,11 +413,31 @@
                     "articles": [
                         {
                             "title": "상자 속 작은 시작",
-                            "body": "웨이브를 막아내면 깃발 근처로 보급상자가 내려옵니다. 착지한 셜커상자를 열어 음식과 재료, 장비를 챙기세요. 상자는 부숴서 가져갈 수도 있어요. 섬의 보물 상자에서 씨앗과 작물을 찾아 농사도 지어 보세요."
+                            "body": "웨이브를 막아내면 깃발 근처로 보급상자가 내려옵니다. 착지한 셜커상자를 열어 음식과 재료, 장비를 챙기세요. 상자는 부숴서 가져갈 수도 있어요. 섬의 보물 상자에서 씨앗과 작물을 찾아 농사도 지어 보세요.",
+                            "images": [
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/wiki/starter-chest.png?v=66ce30f9cfd1ad5c",
+                                    "caption": "처음 열어 보는 시작 물품 상자"
+                                }
+                            ]
                         },
                         {
                             "title": "오늘은 어떤 물고기가 잡힐까요?",
-                            "body": "입질이 오면 우클릭을 눌렀다 놓으며 게이지를 초록색 구간에 유지하세요. 어종과 희귀도에 따라 손맛이 달라집니다. 낚은 물고기는 익혀 먹거나 깃발에 바칠 수 있어요. ESC 메뉴의 물고기 도감에서 잡은 물고기와 최대 크기를 확인해 보세요."
+                            "body": "입질이 오면 우클릭을 눌렀다 놓으며 게이지를 초록색 구간에 유지하세요. 어종과 희귀도에 따라 손맛이 달라집니다. 낚은 물고기는 익혀 먹거나 깃발에 바칠 수 있어요. ESC 메뉴의 물고기 도감에서 잡은 물고기와 최대 크기를 확인해 보세요.",
+                            "images": [
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/wiki/fishing.png?v=039ac4aa5081ba9b",
+                                    "caption": "낚시 중에 표시되는 조작과 진행 막대"
+                                },
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/wiki/first-catch.png?v=aea34d6e94762df6",
+                                    "caption": "물고기를 낚았을 때 뜨는 결과"
+                                },
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/islandcastaway/assets/wiki/fish-journal.png?v=978ed4ef4889278f",
+                                    "caption": "잡은 물고기를 확인하는 도감"
+                                }
+                            ]
                         },
                         {
                             "title": "함께라면 더 오래",
@@ -413,11 +505,23 @@
                         },
                         {
                             "title": "게임 만들기",
-                            "body": "메인 화면에서 게임 만들기를 누르고 서버 이름, 최대 인원, 팀 최대 인원을 정한 뒤 만들기를 누르세요. 최대 인원은 관전자를 포함해 64명, 팀 최대 인원은 1~10명입니다. 팀 최대 인원을 1명으로 설정하면 개인전으로 즐길 수 있습니다."
+                            "body": "메인 화면에서 게임 만들기를 누르고 서버 이름, 최대 인원, 팀 최대 인원을 정한 뒤 만들기를 누르세요. 최대 인원은 관전자를 포함해 64명, 팀 최대 인원은 1~10명입니다. 팀 최대 인원을 1명으로 설정하면 개인전으로 즐길 수 있습니다.",
+                            "images": [
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/wiki/create-room.png?v=dbd540190abdb565",
+                                    "caption": "방 이름과 최대 참가 인원을 정하는 화면"
+                                }
+                            ]
                         },
                         {
                             "title": "초대코드로 참여하기",
-                            "body": "방장은 대기방에 표시된 초대코드를 복사해 함께할 사람에게 보내 주세요. 초대를 받은 사람은 메인 화면의 참여하기에서 초대코드를 붙여넣어 참가하면 됩니다."
+                            "body": "방장은 대기방에 표시된 초대코드를 복사해 함께할 사람에게 보내 주세요. 초대를 받은 사람은 메인 화면의 참여하기에서 초대코드를 붙여넣어 참가하면 됩니다.",
+                            "images": [
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/wiki/join-code.png?v=79957bbfd6975a0a",
+                                    "caption": "받은 초대코드를 입력하는 화면"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -426,7 +530,13 @@
                     "articles": [
                         {
                             "title": "원하는 자리에 앉기",
-                            "body": "빈 자리를 누르거나 내 플레이어를 빈 자리로 드래그하면 자리를 옮길 수 있습니다. 같은 팀 안에서도 다른 자리로 이동할 수 있습니다. 함께할 사람과 같은 팀에 자리를 잡으세요."
+                            "body": "빈 자리를 누르거나 내 플레이어를 빈 자리로 드래그하면 자리를 옮길 수 있습니다. 같은 팀 안에서도 다른 자리로 이동할 수 있습니다. 함께할 사람과 같은 팀에 자리를 잡으세요.",
+                            "images": [
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/wiki/team-lobby.png?v=c5ef1a7a3a7ed93d",
+                                    "caption": "팀을 고르는 대기방"
+                                }
+                            ]
                         },
                         {
                             "title": "방장의 대기방 관리",
@@ -434,7 +544,13 @@
                         },
                         {
                             "title": "설정을 정하고 시작하기",
-                            "body": "방장은 매치 설정에서 난이도, 배고픔 소모 속도와 자기장을 정할 수 있습니다. 배고픔은 1배가 기본이며, 0배로 설정하면 줄어들지 않습니다. 초기 자기장 크기를 바꾸면 나머지 설정도 함께 조정됩니다. 대기 중인 참가자를 모두 팀에 배정한 뒤 시작을 누르세요."
+                            "body": "방장은 매치 설정에서 난이도, 배고픔 소모 속도와 자기장을 정할 수 있습니다. 배고픔은 1배가 기본이며, 0배로 설정하면 줄어들지 않습니다. 초기 자기장 크기를 바꾸면 나머지 설정도 함께 조정됩니다. 대기 중인 참가자를 모두 팀에 배정한 뒤 시작을 누르세요.",
+                            "images": [
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/wiki/match-settings.png?v=1db29fc43653f86e",
+                                    "caption": "방장이 여는 매치 설정"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -443,7 +559,13 @@
                     "articles": [
                         {
                             "title": "10초 뒤 지도가 열립니다",
-                            "body": "방장이 시작을 누르면 10초 카운트다운 후 스폰 선택 지도가 열립니다. 스폰 위치를 고를 수 있는 시간은 1분 30초입니다."
+                            "body": "방장이 시작을 누르면 10초 카운트다운 후 스폰 선택 지도가 열립니다. 스폰 위치를 고를 수 있는 시간은 1분 30초입니다.",
+                            "images": [
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/wiki/match-countdown.png?v=404edf5c097d07fa",
+                                    "caption": "스폰 선택 시작 전 카운트다운"
+                                }
+                            ]
                         },
                         {
                             "title": "우클릭 핑으로 스폰 위치 선택",
@@ -486,15 +608,33 @@
                         },
                         {
                             "title": "얼굴과 색상으로 팀원 찾기",
-                            "body": "경기 중에는 지도에 표시된 얼굴과 테두리 색으로 팀원을 찾을 수 있습니다. 이름표와 빛나는 테두리도 같은 색으로 표시됩니다. 지도에 핑을 찍어 모일 곳이나 이동할 곳을 알려 주세요."
+                            "body": "경기 중에는 지도에 표시된 얼굴과 테두리 색으로 팀원을 찾을 수 있습니다. 이름표와 빛나는 테두리도 같은 색으로 표시됩니다. 지도에 핑을 찍어 모일 곳이나 이동할 곳을 알려 주세요.",
+                            "images": [
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/wiki/squad-hud.png?v=94c4e72713f54563",
+                                    "caption": "경기 화면 왼쪽 아래에 표시된 팀원"
+                                }
+                            ]
                         },
                         {
                             "title": "경기 화면 읽기",
-                            "body": "왼쪽 위에서 남은 생존 인원과 팀 수를 확인하세요. 왼쪽 아래에는 팀원의 이름과 체력이, 오른쪽 위에는 작은 지도와 자기장 정보가 표시됩니다."
+                            "body": "왼쪽 위에서 남은 생존 인원과 팀 수를 확인하세요. 왼쪽 아래에는 팀원의 이름과 체력이, 오른쪽 위에는 작은 지도와 자기장 정보가 표시됩니다.",
+                            "images": [
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/wiki/in-match-hud.png?v=5b92ce4de86e6431",
+                                    "caption": "경기 중 생존 인원과 미니맵"
+                                }
+                            ]
                         },
                         {
                             "title": "지도에서 자기장 확인하기",
-                            "body": "파란 선은 현재 자기장, 흰 선은 다음 자기장입니다. 숲, 사막, 설원 등 지역 이름을 참고해 이동할 곳을 정하세요."
+                            "body": "파란 선은 현재 자기장, 흰 선은 다음 자기장입니다. 숲, 사막, 설원 등 지역 이름을 참고해 이동할 곳을 정하세요.",
+                            "images": [
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/wiki/battle-map.png?v=1bbe835a9202bfa1",
+                                    "caption": "현재 자기장과 다음 자기장을 표시한 전체 지도"
+                                }
+                            ]
                         },
                         {
                             "title": "전체 채팅과 팀 채팅",
@@ -528,7 +668,13 @@
                         },
                         {
                             "title": "팀 전멸과 결과 화면",
-                            "body": "팀이 전멸하면 결과 화면에서 팀 순위와 내 킬 수를 확인할 수 있습니다. 관전 버튼을 누르면 자유롭게 남은 경기를 볼 수 있습니다. 마지막 팀이 정해지면 우승 팀에도 결과 화면이 표시되며, 남아 있는 우승 팀원은 피해를 받지 않습니다. 경기가 끝나면 방장은 전체 경기 결과에서 모든 팀의 순위와 플레이어별 순위·킬 수를 볼 수 있습니다. 관전 중이라면 ESC 메뉴에서도 전체 경기 결과를 열 수 있습니다."
+                            "body": "팀이 전멸하면 결과 화면에서 팀 순위와 내 킬 수를 확인할 수 있습니다. 관전 버튼을 누르면 자유롭게 남은 경기를 볼 수 있습니다. 마지막 팀이 정해지면 우승 팀에도 결과 화면이 표시되며, 남아 있는 우승 팀원은 피해를 받지 않습니다. 경기가 끝나면 방장은 전체 경기 결과에서 모든 팀의 순위와 플레이어별 순위·킬 수를 볼 수 있습니다. 관전 중이라면 ESC 메뉴에서도 전체 경기 결과를 열 수 있습니다.",
+                            "images": [
+                                {
+                                    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/minebattleroyale/assets/wiki/match-results.png?v=7b160f77cf483386",
+                                    "caption": "팀 순위와 관전 버튼이 표시된 경기 결과"
+                                }
+                            ]
                         },
                         {
                             "title": "경기 포기와 로비로 나가기",
