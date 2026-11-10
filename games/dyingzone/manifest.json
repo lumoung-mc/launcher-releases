@@ -1,0 +1,24 @@
+{
+    "schema_version": 1,
+    "game_id": "dyingzone",
+    "version": "0.1.0",
+    "minecraft_version": "1.21.1",
+    "java_major_version": 21,
+    "loader": {
+        "type": "neoforge",
+        "version": "21.1.265",
+        "installer": {
+            "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.265/neoforge-21.1.265-installer.jar",
+            "sha1": "25ce1d35d619ccfd3080076fa5758c18e11a9778"
+        }
+    },
+    "files": [
+        {
+            "path": "mods/dyingzone-0.1.0.jar",
+            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/8903c47c1b62f0733a9eb5dbd01eac7e9e5c118a/games/dyingzone/minecraft/mods/dyingzone-0.1.0.jar",
+            "size": 94122610,
+            "sha256": "8f8d0f4e535190a9e4d6e0def71462956ec44cbf2e69149320cac7c6ec0ad45c",
+            "mode": "managed"
+        }
+    ]
+}
