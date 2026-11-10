@@ -1,6 +1,6 @@
 {
     "schema_version": 1,
-    "launcher_version": "1.0.21",
+    "launcher_version": "1.0.22",
     "games": [
         {
             "id": "cleancity",
@@ -792,8 +792,8 @@
         }
     ],
     "launcher_update": {
-        "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/launcher/windows/LumoungsLauncher-1.0.21-Setup.exe",
-        "sha256": "ba78889bf8d48999151a985a33e19e985e9a9a12c521f79afaec6c81c00332ea",
-        "size": 48697770
+        "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/298aa1412c64957090282c58fa4143d1f257230b/launcher/windows/LumoungsLauncher-1.0.22-Setup.exe",
+        "sha256": "5d85e83aff9a2451ce984a4f6092c8216fad358f4504b4a94b8876c97c57ab9b",
+        "size": 48698064
     }
 }
