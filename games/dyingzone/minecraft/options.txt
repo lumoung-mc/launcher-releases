@@ -1,0 +1,4 @@
+version:3955
+lang:ko_kr
+onboardAccessibility:false
+soundCategory_music:0.0
