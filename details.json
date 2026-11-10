@@ -734,6 +734,11 @@
             "loader_type": "neoforge",
             "loader_version": "21.1.265",
             "renderer_lock": "opengl",
+            "whitelist": [
+                "Macaroon3145",
+                "Ttankkeo",
+                "lumoungS2"
+            ],
             "notices": [],
             "patch_notes": [],
             "assets": {
