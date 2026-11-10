@@ -723,6 +723,27 @@
                 }
             ],
             "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/d00495d271e412d51b8c1ae3875c315d1035768a/games/minebattleroyale/manifest.json"
+        },
+        {
+            "id": "dyingzone",
+            "version": "0.1.0",
+            "type": "minecraft_java_edition",
+            "name": "DyingZone",
+            "minecraft_version": "1.21.1",
+            "java_major_version": 21,
+            "loader_type": "neoforge",
+            "loader_version": "21.1.265",
+            "renderer_lock": "opengl",
+            "notices": [],
+            "patch_notes": [],
+            "assets": {
+                "logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/dyingzone/assets/logo.png?v=0b6c6ebc496e94d1",
+                "thumbnail": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/dyingzone/assets/thumbnail.png?v=f328d1881108105d",
+                "loop_background": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/dyingzone/assets/background.mp4?v=4e17a658f7e55532",
+                "game_logo": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/main/games/dyingzone/assets/game_logo.png?v=64941e17616ba74c"
+            },
+            "wiki": [],
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/445529b8014abda911d5113fef75d58c1edbd1ac/games/dyingzone/manifest.json"
         }
     ],
     "launcher_update": {
