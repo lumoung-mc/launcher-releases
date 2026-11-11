@@ -726,7 +726,7 @@
         },
         {
             "id": "dyingzone",
-            "version": "0.1.12",
+            "version": "0.1.13",
             "type": "minecraft_java_edition",
             "name": "DyingZone",
             "server": {
@@ -796,7 +796,7 @@
                     ]
                 }
             ],
-            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/85584adbea36ad5d7da0822e050d492680686d28/games/dyingzone/manifest.json"
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/2020f99a0b7833cafba27e2bae7f853ed1a4ae11/games/dyingzone/manifest.json"
         }
     ],
     "launcher_update": {
