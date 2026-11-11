@@ -1,4 +1,5 @@
 version:3955
 lang:ko_kr
+renderDistance:32
 onboardAccessibility:false
 soundCategory_music:0.0
