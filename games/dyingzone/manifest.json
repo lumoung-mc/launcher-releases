@@ -1,7 +1,7 @@
 {
     "schema_version": 1,
     "game_id": "dyingzone",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "minecraft_version": "1.21.1",
     "java_major_version": 21,
     "loader": {
@@ -15,14 +15,28 @@
     "files": [
         {
             "path": "mods/dyingzone-0.1.0.jar",
-            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/e4f0248095d3ad40dbcd14241742ed5e3fe7fc9c/games/dyingzone/minecraft/mods/dyingzone-0.1.0.jar",
+            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/519344c7a0f3628e95509a79a3fb4cb11411c4ad/games/dyingzone/minecraft/mods/dyingzone-0.1.0.jar",
             "size": 94126684,
             "sha256": "bb84035d59188728ceabf71d7ab0b5d1536f634822ad66678da78018f59367b7",
             "mode": "managed"
         },
         {
+            "path": "mods/plasmovoice-neoforge-1.21.1-2.1.17.jar",
+            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/519344c7a0f3628e95509a79a3fb4cb11411c4ad/games/dyingzone/minecraft/mods/plasmovoice-neoforge-1.21.1-2.1.17.jar",
+            "size": 12341959,
+            "sha256": "3714890e127dc661031116c845e8d585bd3cd56360cd070b6be9073bd1e2e3de",
+            "mode": "managed"
+        },
+        {
+            "path": "mods/pv-addon-soundphysics-1.1.2.jar",
+            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/519344c7a0f3628e95509a79a3fb4cb11411c4ad/games/dyingzone/minecraft/mods/pv-addon-soundphysics-1.1.2.jar",
+            "size": 16176,
+            "sha256": "cd7af450fbc5612674149476b8142392a8040f3961c222c653ecfd6f13f81615",
+            "mode": "managed"
+        },
+        {
             "path": "options.txt",
-            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/e4f0248095d3ad40dbcd14241742ed5e3fe7fc9c/games/dyingzone/minecraft/options.txt",
+            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/519344c7a0f3628e95509a79a3fb4cb11411c4ad/games/dyingzone/minecraft/options.txt",
             "size": 75,
             "sha256": "d389caaeac3be58ea3daa0d3acca8bc98d84e22f3f221b73914cb9332f6975d3",
             "mode": "install_if_missing"
