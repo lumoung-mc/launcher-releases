@@ -1,0 +1,7 @@
+Plasmo Voice 2.1.17, Apehum and contributors. License: LGPL-3.0.
+Source: https://github.com/plasmoapp/plasmo-voice/tree/2.1.17
+Original NeoForge 1.21.1 download: https://modrinth.com/mod/plasmo-voice/version/97HOKGM0
+
+pv-addon-soundphysics 1.1.2, Apehum and contributors. License: MIT.
+Source: https://github.com/plasmoapp/pv-addon-soundphysics/tree/1.1.2
+Original download: https://modrinth.com/mod/pv-addon-soundphysics/version/kmyhU2jp
