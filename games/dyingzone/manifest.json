@@ -1,7 +1,7 @@
 {
     "schema_version": 1,
     "game_id": "dyingzone",
-    "version": "0.1.12",
+    "version": "0.1.13",
     "minecraft_version": "1.21.1",
     "java_major_version": 21,
     "loader": {
@@ -15,9 +15,9 @@
     "files": [
         {
             "path": "mods/dyingzone-0.1.0.jar",
-            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/79ae9a74040120b02ddacbd37620075507bd2e55/games/dyingzone/minecraft/mods/dyingzone-0.1.0.jar",
-            "size": 102442720,
-            "sha256": "02c328df947658c4b3a1949cc6bf4447290028b7b848a6ddc9c68793349b459e",
+            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/fc134f9e0d2afef24d647d0dc34d203fe232707b/games/dyingzone/minecraft/mods/dyingzone-0.1.0.jar",
+            "size": 102442922,
+            "sha256": "44a8b0fbee6f77c777b80c5e9ecb072bc9ea7c52d34711b005759bc28df747fa",
             "mode": "managed"
         },
         {
