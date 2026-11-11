@@ -1,7 +1,7 @@
 {
     "schema_version": 1,
     "game_id": "dyingzone",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "minecraft_version": "1.21.1",
     "java_major_version": 21,
     "loader": {
@@ -15,28 +15,28 @@
     "files": [
         {
             "path": "mods/dyingzone-0.1.0.jar",
-            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/5349c6e2e5c26876b8183c2558b27b74bb04d64c/games/dyingzone/minecraft/mods/dyingzone-0.1.0.jar",
-            "size": 102240592,
-            "sha256": "4dfab82f77c7dfdd1382487dd6969ee8f26ec274b83ceb25faac85d0aef14e28",
+            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/3718be934ac5bbce12e768fee21d2c593627c863/games/dyingzone/minecraft/mods/dyingzone-0.1.0.jar",
+            "size": 102241947,
+            "sha256": "01624a950d58fb819983426d8ee9bf8553560503e09f0978afa55a4bf0e22ca8",
             "mode": "managed"
         },
         {
             "path": "mods/plasmovoice-neoforge-1.21.1-2.1.17.jar",
-            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/5349c6e2e5c26876b8183c2558b27b74bb04d64c/games/dyingzone/minecraft/mods/plasmovoice-neoforge-1.21.1-2.1.17.jar",
+            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/3718be934ac5bbce12e768fee21d2c593627c863/games/dyingzone/minecraft/mods/plasmovoice-neoforge-1.21.1-2.1.17.jar",
             "size": 12341959,
             "sha256": "3714890e127dc661031116c845e8d585bd3cd56360cd070b6be9073bd1e2e3de",
             "mode": "managed"
         },
         {
             "path": "mods/pv-addon-soundphysics-1.1.2.jar",
-            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/5349c6e2e5c26876b8183c2558b27b74bb04d64c/games/dyingzone/minecraft/mods/pv-addon-soundphysics-1.1.2.jar",
+            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/3718be934ac5bbce12e768fee21d2c593627c863/games/dyingzone/minecraft/mods/pv-addon-soundphysics-1.1.2.jar",
             "size": 16176,
             "sha256": "cd7af450fbc5612674149476b8142392a8040f3961c222c653ecfd6f13f81615",
             "mode": "managed"
         },
         {
             "path": "options.txt",
-            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/5349c6e2e5c26876b8183c2558b27b74bb04d64c/games/dyingzone/minecraft/options.txt",
+            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/3718be934ac5bbce12e768fee21d2c593627c863/games/dyingzone/minecraft/options.txt",
             "size": 93,
             "sha256": "7c6fe9692413ca94b442b7496016e1661cb4d04ed384e1f884653d2e95562e36",
             "mode": "install_if_missing"
