@@ -321,7 +321,7 @@
         },
         {
             "id": "islandcastaway",
-            "version": "1.0.24",
+            "version": "1.0.25",
             "type": "minecraft_java_edition",
             "name": "자라섬 표류기",
             "minecraft_version": "26.3",
@@ -454,7 +454,7 @@
                     ]
                 }
             ],
-            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/d00495d271e412d51b8c1ae3875c315d1035768a/games/islandcastaway/manifest.json"
+            "manifest_url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/d4bdb6f37498a6379b2fc8f9bd02e224b2e5bec3/games/islandcastaway/manifest.json"
         },
         {
             "id": "minebattleroyale",
