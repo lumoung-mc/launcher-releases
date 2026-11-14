@@ -12,6 +12,14 @@
             "loader_type": "fabric",
             "loader_version": "0.19.5",
             "renderer_lock": "vulkan",
+            "whitelist": [
+                "Macaroon3145",
+                "Ttankkeo",
+                "lumoungS2",
+                "yingnu97",
+                "bingddo",
+                "good7777865"
+            ],
             "server": {
                 "host": "121.180.10.242",
                 "port": 25560
