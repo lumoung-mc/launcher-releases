@@ -1,7 +1,7 @@
 {
     "schema_version": 1,
     "game_id": "dyingzone",
-    "version": "0.1.25",
+    "version": "0.1.26",
     "minecraft_version": "1.21.1",
     "java_major_version": 21,
     "loader": {
@@ -15,9 +15,9 @@
     "files": [
         {
             "path": "mods/dyingzone-0.1.0.jar",
-            "url": "https://github.com/lumoung-mc/launcher-releases/releases/download/dyingzone-0.1.25/dyingzone-0.1.0.jar",
-            "size": 158172610,
-            "sha256": "6cbd8f42e64796d2cbeca9a1892e6a3baa8944a2f2f88e3369c60d4426df37f3",
+            "url": "https://github.com/lumoung-mc/launcher-releases/releases/download/dyingzone-0.1.26/dyingzone-0.1.0.jar",
+            "size": 192541671,
+            "sha256": "825ee094d1d476be869ff9334d4aa9aa5f62082780d4b8d7f1adeccb1ffa1b92",
             "mode": "managed"
         },
         {
@@ -40,6 +40,13 @@
             "size": 93,
             "sha256": "adcd64c896bb5f26acc2fa8e4823704479290433fcc3a37496fac85f95101608",
             "mode": "install_if_missing"
+        },
+        {
+            "path": "dyingzone/required-packs/FreshAnimations_v1.11.2_1.20+.zip",
+            "url": "https://cdn.modrinth.com/data/50dA9Sha/versions/HC1XRKGD/FreshAnimations_v1.11.2_1.20%2B.zip",
+            "size": 742790,
+            "sha256": "3a36e09638aa72f3b6e36fcfbcb4f9a3ba31a03b09e777466034bf75827c157e",
+            "mode": "managed"
         }
     ]
 }
