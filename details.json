@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "launcher_version": "1.0.31",
+  "launcher_version": "1.0.32",
   "games": [
     {
       "id": "launcher-update",
       "name": "Launcher update",
-      "version": "1.0.31",
+      "version": "1.0.32",
       "type": "minecraft_java_edition",
       "whitelist": []
     }
   ],
   "launcher_update": {
-    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/cb38d76fa5a5b8e9a225de3b7c5b2b7b4fd7cae8/launcher/windows/LumoungsLauncher-1.0.31-Setup.exe",
-    "sha256": "c04d9c19f91e697ad325aea3dd4edb633c1bfaad555f4c22a9776692f518c5d3",
-    "size": 48785767
+    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/83ca71132efde4157fb34bf89d09a5ddc24d35cd/launcher/windows/LumoungsLauncher-1.0.32-Setup.exe",
+    "sha256": "a6e8d11beeb8ca2978fce8c672315d3510e3f1b0b6115e4695bf841b9651fbdb",
+    "size": 48788592
   }
 }
