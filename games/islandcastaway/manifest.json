@@ -1,7 +1,7 @@
 {
     "schema_version": 1,
     "game_id": "islandcastaway",
-    "version": "1.0.26",
+    "version": "1.0.27",
     "minecraft_version": "26.3",
     "java_major_version": 25,
     "loader": {
@@ -11,16 +11,16 @@
     "files": [
         {
             "path": "mods/fabric-api-0.165.0+26.3.jar",
-            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/8d75c11119d841f990271b3acdd73f755f57d861/games/islandcastaway/minecraft/mods/fabric-api-0.165.0%2B26.3.jar",
+            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/381716aaf40a09afce399363317a84253ac7aefc/games/islandcastaway/minecraft/mods/fabric-api-0.165.0%2B26.3.jar",
             "size": 1778588,
             "sha256": "18442e2ad466d6ef41c37dbb4cb68495e6ca6658b1f1ee9be76143d155ef2c88",
             "mode": "managed"
         },
         {
             "path": "mods/islandcastaway-1.0.0.jar",
-            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/8d75c11119d841f990271b3acdd73f755f57d861/games/islandcastaway/minecraft/mods/islandcastaway-1.0.0.jar",
-            "size": 78213924,
-            "sha256": "7f33e2ebc6f3c7b420e17d4b9547d2dcd110c20c6b6e13160fcc1215d9e7068a",
+            "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/381716aaf40a09afce399363317a84253ac7aefc/games/islandcastaway/minecraft/mods/islandcastaway-1.0.0.jar",
+            "size": 78234546,
+            "sha256": "b39fb74263f013b10981c5def3b010df8f3245be0ca3965ab66ea4137403d6ba",
             "mode": "managed"
         }
     ]
