@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "launcher_version": "1.0.40",
+  "launcher_version": "1.0.41",
   "games": [
     {
       "id": "launcher-update",
       "name": "Launcher update",
-      "version": "1.0.40",
+      "version": "1.0.41",
       "type": "minecraft_java_edition",
       "whitelist": []
     }
   ],
   "launcher_update": {
-    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/40299995c5755035fcdb0b2052e2aeb192452ee7/launcher/windows/LumoungsLauncher-1.0.40-Setup.exe",
-    "sha256": "c3ef69fc2addf787e6cb0e9c94bd7a10a1c9cdbfecde3d8af0a37ae708a05bc2",
-    "size": 48803668
+    "url": "https://raw.githubusercontent.com/lumoung-mc/launcher-releases/0b3939e7d0bc3fba2e11b1a5a57c80c1f2434e27/launcher/windows/LumoungsLauncher-1.0.41-Setup.exe",
+    "sha256": "458247b8c04a638e84071c11fae7eabb9857834ca4a587a1ff948c2238852720",
+    "size": 48803592
   }
 }
